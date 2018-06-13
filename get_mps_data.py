@@ -54,7 +54,7 @@ def fetch_data():
         mps.append(person)
 
     with open(JSON_FILEPATH, 'w') as f:
-        json.dump(mps, f, indent=2, ensure_ascii=False)
+        json.dump({'members': mps}, f, indent=2, ensure_ascii=False)
 
     logger.info("Saved data for {} MPs".format(len(mps)))
 
