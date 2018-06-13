@@ -1,7 +1,7 @@
 .parl-chart {
   border: 1px solid #ccc;
-  max-width: 800px;
-  height: 500px;
+  max-width: 540px;
+  height: 344px;
 }
 
 .chart-inner {
@@ -14,4 +14,14 @@
 }
 .chart-bar-right {
   fill: #966;
+}
+
+.axis line,
+.axis path {
+  shape-rendering: crispEdges;
+  fill: transparent;
+  stroke: #555;
+}
+.axis text {
+  font-size: 11px;
 }

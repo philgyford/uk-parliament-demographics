@@ -3,18 +3,26 @@
   window.parl = window.parl || {};
 
   parl.populationPyramidChart = function(selection) {
-    var margin = {top: 0, right: 0, bottom: 0, left: 0};
+    var margin = {top: 20, right: 20, bottom: 24, left: 20};
+
+    // Space in the middle for the y-axis labels.
+    var marginMiddle = 28;
 
     // Internal things that can't be overridden:
     var xScale = d3.scaleLinear(),
         xScaleL = d3.scaleLinear(),
         xScaleR = d3.scaleLinear(),
         yScale = d3.scaleBand(),
-        xAxisL = d3.axisBottom(xScaleL),
-        xAxisR = d3.axisBottom(xScaleR),
-        yAxisL = d3.axisLeft(yScale),
-        yAxisR = d3.axisLeft(yScale),
-        marginMiddle = 30;
+        xAxisL = d3.axisBottom(xScaleL)
+                    .tickFormat(d3.format('.0%')),
+        xAxisR = d3.axisBottom(xScaleR)
+                    .tickFormat(d3.format('.0%')),
+        yAxisL = d3.axisRight(yScale)
+                    .tickSize(0)
+                    .tickPadding(marginMiddle),
+        yAxisR = d3.axisLeft(yScale)
+                    .tickSize(0)
+                    .tickFormat('');
 
     function chart(selection) {
       selection.each(function(data) {
@@ -109,8 +117,7 @@
           svg.transition().attr('width', width)
                           .attr('height', height);
 
-          inner
-            .attr("transform", "translate(" + margin.left+","+margin.top + ")");
+          inner.attr("transform", translation(margin.left, margin.top));
         };
 
         function renderAxes() {
@@ -130,7 +137,9 @@
 
           svg.select('.axis-y.axis-left')
               .attr('transform', translation(xLeft0, 0))
-              .call(yAxisL);
+              .call(yAxisL)
+              .selectAll('text')
+              .style('text-anchor', 'middle');
 
           svg.select('.axis-y.axis-right')
               .attr('transform', translation(xRight0, 0))
