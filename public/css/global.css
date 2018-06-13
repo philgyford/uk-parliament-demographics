@@ -1,0 +1,17 @@
+.parl-chart {
+  border: 1px solid #ccc;
+  max-width: 800px;
+  height: 500px;
+}
+
+.chart-inner {
+  border: 1px solid #dcc;
+}
+
+
+.chart-bar-left {
+  fill: #669;
+}
+.chart-bar-right {
+  fill: #966;
+}
