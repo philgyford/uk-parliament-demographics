@@ -6,7 +6,7 @@ import mnis
 # Uses mnis to fetch data about all MPs and saves it to a file as JSON.
 
 # Location of our already-prepared JSON file about UK population age bands:
-UK_FILEPATH = './public/data/uk_ages.json'
+UK_FILEPATH = './public/data/uk.json'
 
 # Destination for the JSON file with all MPs data:
 MPS_FILEPATH = './public/data/mps.json'
