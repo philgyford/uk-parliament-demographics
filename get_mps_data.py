@@ -6,7 +6,7 @@ import mnis
 # Uses mnis to fetch data about all MPs and saves it to a file as JSON.
 
 # Destination for our data:
-JSON_FILEPATH = './mps.json'
+JSON_FILEPATH = './public/data/mps.json'
 
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
