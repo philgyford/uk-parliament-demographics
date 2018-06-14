@@ -1,18 +1,21 @@
 .parl-chart {
   border: 1px solid #ccc;
-  max-width: 540px;
-  height: 344px;
+  max-width: 800px;
+  height: 400px;
 }
 
-.chart-inner {
+.chart__inner {
   border: 1px solid #dcc;
 }
 
 
-.chart-bar-left {
+.chart__bar {
+  shape-rendering: crispEdges;
+}
+.chart__bar--left {
   fill: #669;
 }
-.chart-bar-right {
+.chart__bar--right {
   fill: #966;
 }
 

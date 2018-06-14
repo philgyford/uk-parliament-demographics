@@ -3,7 +3,7 @@
   window.parl = window.parl || {};
 
   parl.populationPyramidChart = function(selection) {
-    var margin = {top: 20, right: 20, bottom: 24, left: 20};
+    var margin = {top: 0, right: 0, bottom: 20, left: 0};
 
     // Space in the middle for the y-axis labels.
     var marginMiddle = 28;
@@ -52,7 +52,7 @@
 
         if (!svg) {
           svg = container.append('svg');
-          var inner = svg.append('g').classed('chart-inner', true);
+          var inner = svg.append('g').classed('chart__inner', true);
         };
 
         // Groups that will contain the bars on each side.
@@ -61,16 +61,16 @@
 
         // Set up axes.
         inner.append("g")
-              .classed("axis axis-x axis-left", true);
+              .classed("axis axis--x axis--left", true);
 
         inner.append("g")
-              .classed("axis axis-x axis-right", true);
+              .classed("axis axis--x axis--right", true);
 
         inner.append("g")
-              .classed("axis axis-y axis-left", true);
+              .classed("axis axis--y axis--left", true);
 
         inner.append("g")
-              .classed("axis axis-y axis-right", true);
+              .classed("axis axis--y axis--right", true);
 
         // Need to be in a scope available to all the render methods.
         var chartW,
@@ -127,21 +127,21 @@
 
           xAxisR.scale(xScale);
 
-          svg.select('.axis-x.axis-left')
+          svg.select('.axis--x.axis--left')
               .attr('transform', translation(0, chartH))
               .call(xAxisL);
 
-          svg.select('.axis-x.axis-right')
+          svg.select('.axis--x.axis--right')
               .attr('transform', translation(xRight0, chartH))
               .call(xAxisR);
 
-          svg.select('.axis-y.axis-left')
+          svg.select('.axis--y.axis--left')
               .attr('transform', translation(xLeft0, 0))
               .call(yAxisL)
               .selectAll('text')
               .style('text-anchor', 'middle');
 
-          svg.select('.axis-y.axis-right')
+          svg.select('.axis--y.axis--right')
               .attr('transform', translation(xRight0, 0))
               .call(yAxisR);
         };
@@ -163,12 +163,12 @@
           var barRW = function(d) { return xScale(percentageR(d.right)); };
 
           // Select bars on the left:
-          var barsL = leftGroup.selectAll('.chart-bar-left')
+          var barsL = leftGroup.selectAll('.chart__bar--left')
                                .data(rowsData);
 
           barsL.enter()
                 .append('rect')
-                .attr('class', 'chart-bar chart-bar-left')
+                .attr('class', 'chart__bar chart__bar--left')
                 .attr('x', barX)
                 .attr('y', barY)
                 .attr('width', barLW)
@@ -184,12 +184,12 @@
 
           // Now the same for the bars on the right.
 
-          var barsR = rightGroup.selectAll('.chart-bar-right')
+          var barsR = rightGroup.selectAll('.chart__bar--right')
                                 .data(rowsData)
 
           barsR.enter()
                 .append('rect')
-                .attr('class', 'chart-bar chart-bar-right')
+                .attr('class', 'chart__bar chart__bar--right')
                 .attr('x', barX)
                 .attr('y', barY)
                 .attr('width', barRW)
@@ -204,7 +204,6 @@
                 .attr('height', barH);
 
         };
-
 
         /**
          * Utility function to save manually writing translate().
