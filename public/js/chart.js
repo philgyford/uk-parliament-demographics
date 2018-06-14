@@ -3,10 +3,17 @@
   window.parl = window.parl || {};
 
   parl.populationPyramidChart = function(selection) {
-    var margin = {top: 0, right: 0, bottom: 20, left: 0};
 
-    // Space in the middle for the y-axis labels.
-    var marginMiddle = 28;
+    // Can be changed using the chart.margin() method.
+    // Note extra 'middle', which is space in the center for the y-axis labels.
+    var margin = {top: 0, right: 0, bottom: 20, left: 0, middle: 28};
+
+    // Can (and should) be changed using the chart.data() method.
+    // This will be replaced by any data passed to the chart.data() method:
+    var data = [];
+
+    // This will be replaced by a method when a chart is created.
+    var render;
 
     // Internal things that can't be overridden:
     var xScale = d3.scaleLinear(),
@@ -19,41 +26,37 @@
                     .tickFormat(d3.format('.0%')),
         yAxisL = d3.axisRight(yScale)
                     .tickSize(0)
-                    .tickPadding(marginMiddle),
+                    .tickPadding(margin.middle),
         yAxisR = d3.axisLeft(yScale)
                     .tickSize(0)
                     .tickFormat('');
 
     function chart(selection) {
-      selection.each(function(data) {
+      selection.each(function() {
 
-        var container = d3.select(this),
-            svg,
-            rowsData = data['rows'];
+        var container = d3.select(this);
 
         // The total counts for each side.
-        var totalL = d3.sum(rowsData, function(d) { return d.left; }),
-            totalR = d3.sum(rowsData, function(d) { return d.right; }),
+        var totalL = d3.sum(data, function(d) { return d.left; }),
+            totalR = d3.sum(data, function(d) { return d.right; }),
             // Functions for getting a value as a percentage of the sides' total.
             percentageL = function(d) { return d / totalL; },
             percentageR = function(d) { return d / totalR; };
 
         // The highest x value on either side:
         var maxXValue = Math.max(
-          d3.max(rowsData, function(d) { return percentageL(d.left); }),
-          d3.max(rowsData, function(d) { return percentageR(d.right); })
+          d3.max(data, function(d) { return percentageL(d.left); }),
+          d3.max(data, function(d) { return percentageR(d.right); })
         );
 
         // Set up scale domains.
         xScale.domain([0, maxXValue]);
         xScaleL.domain([0, maxXValue]);
         xScaleR.domain([0, maxXValue]);
-        yScale.domain(rowsData.map(function(d) { return d.group; }));
+        yScale.domain(data.map(function(d) { return d.group; }));
 
-        if (!svg) {
-          svg = container.append('svg');
-          var inner = svg.append('g').classed('chart__inner', true);
-        };
+        var svg = container.append('svg');
+        var inner = svg.append('g').classed('chart__inner', true);
 
         // Groups that will contain the bars on each side.
         var leftGroup = inner.append('g');
@@ -82,7 +85,7 @@
         /**
          * Draws the whole chart. For the first time or on window resize.
          */
-        function render() {
+        render = function() {
           renderScales();
           renderAxes();
           renderBars();
@@ -101,7 +104,7 @@
           chartH = height - margin.top - margin.bottom;
 
           // The width of each side of the chart:
-          sideW = (chartW / 2) - marginMiddle;
+          sideW = (chartW / 2) - margin.middle;
 
           // Where the 0 is on each side's x-axis:
           xLeft0 = sideW;
@@ -164,7 +167,7 @@
 
           // Select bars on the left:
           var barsL = leftGroup.selectAll('.chart__bar--left')
-                               .data(rowsData);
+                               .data(data);
 
           barsL.enter()
                 .append('rect')
@@ -185,7 +188,7 @@
           // Now the same for the bars on the right.
 
           var barsR = rightGroup.selectAll('.chart__bar--right')
-                                .data(rowsData)
+                                .data(data)
 
           barsR.enter()
                 .append('rect')
@@ -219,9 +222,26 @@
 
     };
 
-    chart.margin = function(_) {
+    /**
+     * Each of the methods below can be used to set variables and data both
+     * before the chart is rendered, and afterwards, in order to update it.
+     * Initially the `render` variable is undefined, so it's not called.
+     * After the chart object has been call()ed, then `render` is a method.
+     * So subsequent calls to, say, chart.data() will call render() once
+     * the update data value has been set, re-rendering the chart.
+     */
+
+    chart.margin = function(value) {
       if (!arguments.length) return margin;
-      margin = _;
+      margin = value;
+      if (typeof render === 'function') render();
+      return chart;
+    };
+
+    chart.data = function(value) {
+      if (!arguments.length) return data;
+      data = value;
+      if (typeof render === 'function') render();
       return chart;
     };
 
