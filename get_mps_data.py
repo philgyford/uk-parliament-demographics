@@ -82,7 +82,8 @@ def create_ages_file():
 
     # Empty dict we'll make copies of and populate with data:
     template = {
-        '18-19': 0,
+        '0-9': 0,
+        '10-19': 0,
         '20-29': 0,
         '30-39': 0,
         '40-49': 0,
@@ -156,8 +157,10 @@ def create_ages_file():
             age = today.year - birthdate.year - \
                 ((today.month, today.day) < (birthdate.month, birthdate.day))
 
-            if age < 20:
-                band = '18-19'
+            if age < 10:
+                band = '0-10'
+            elif age < 20:
+                band = '10-19'
             elif age < 30:
                 band = '20-29'
             elif age < 40:
