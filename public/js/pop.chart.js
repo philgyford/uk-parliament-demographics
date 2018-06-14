@@ -1,8 +1,8 @@
 ;(function() {
   'use strict';
-  window.parl = window.parl || {};
+  window.pop = window.pop || {};
 
-  parl.populationPyramidChart = function(selection) {
+  pop.populationPyramidChart = function(selection) {
 
     // Can be changed using the chart.margin() method.
     // Note extra 'middle', which is space in the center for the y-axis labels.
@@ -53,7 +53,7 @@
         xScale.domain([0, maxXValue]);
         xScaleL.domain([0, maxXValue]);
         xScaleR.domain([0, maxXValue]);
-        yScale.domain(data.map(function(d) { return d.group; }));
+        yScale.domain(data.map(function(d) { return d.band; }));
 
         var svg = container.append('svg');
         var inner = svg.append('g').classed('chart__inner', true);
@@ -158,7 +158,7 @@
 
           // x, y and height are the same for bars on both sides:
           var barX = 0;
-          var barY = function(d) { return yScale(d.group); };
+          var barY = function(d) { return yScale(d.band); };
           var barH = yScale.bandwidth();
 
           // Calculating the width of each bar on left and right:

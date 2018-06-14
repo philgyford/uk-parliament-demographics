@@ -17,46 +17,11 @@
   <div class="parl-chart"></div>
 
   <script src="js/d3.min.js"></script>
-  <script src="js/chart.js"></script>
-
-  <p class="test">Test updating chart data</p>
+  <script src="js/pop.chart.js"></script>
+  <script src="js/pop.controller.js"></script>
 
   <script>
-    var data = [
-        {group: '0-9', left: 10, right: 12},
-        {group: '10-19', left: 14, right: 15},
-        {group: '20-29', left: 15, right: 18},
-        {group: '30-39', left: 18, right: 18},
-        {group: '40-49', left: 21, right: 22},
-        {group: '50-59', left: 19, right: 24},
-        {group: '60-69', left: 15, right: 14},
-        {group: '70-79', left: 8, right: 10},
-        {group: '80-89', left: 4, right: 5},
-        {group: '90-99', left: 2, right: 3},
-        {group: '100-109', left: 1, right: 1}
-      ];
-
-    var chart = parl.populationPyramidChart().data(data);
-
-    var chartEl = d3.select('.parl-chart').call(chart);
-
-    var data2 = [
-        {group: '0-9', left: 10, right: 22},
-        {group: '10-19', left: 14, right: 35},
-        {group: '20-29', left: 15, right: 18},
-        {group: '30-39', left: 18, right: 18},
-        {group: '40-49', left: 21, right: 22},
-        {group: '50-59', left: 19, right: 24},
-        {group: '60-69', left: 15, right: 14},
-        {group: '70-79', left: 8, right: 10},
-        {group: '80-89', left: 4, right: 5},
-        {group: '90-99', left: 2, right: 3},
-        {group: '100-109', left: 1, right: 1}
-      ];
-
-    d3.select('.test').on('click', function() {
-      chart.data(data2);
-    });
+    pop.controller();
   </script>
 
 </body>
