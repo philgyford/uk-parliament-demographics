@@ -1,0 +1,6436 @@
+{
+  "members": [
+    {
+      "memberId": 3898,
+      "gender": "M",
+      "name": "Lord Aberdare",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-05-02"
+    },
+    {
+      "memberId": 631,
+      "gender": "F",
+      "name": "Baroness Adams of Craigielea",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-12-27"
+    },
+    {
+      "memberId": 3453,
+      "gender": "M",
+      "name": "Lord Addington",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1963-08-24"
+    },
+    {
+      "memberId": 2175,
+      "gender": "M",
+      "name": "Lord Adebowale",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1962-07-21"
+    },
+    {
+      "memberId": 3743,
+      "gender": "M",
+      "name": "Lord Adonis",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1963-02-22"
+    },
+    {
+      "memberId": 3847,
+      "gender": "F",
+      "name": "Baroness Afshar",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-05-21"
+    },
+    {
+      "memberId": 4689,
+      "gender": "M",
+      "name": "Lord Agnew of Oulton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-01-17"
+    },
+    {
+      "memberId": 4210,
+      "gender": "M",
+      "name": "Lord Ahmad of Wimbledon",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1968-04-03"
+    },
+    {
+      "memberId": 3470,
+      "gender": "M",
+      "name": "Lord Ahmed",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1957-04-24"
+    },
+    {
+      "memberId": 3478,
+      "gender": "M",
+      "name": "Lord Alderdice",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1955-05-28"
+    },
+    {
+      "memberId": 397,
+      "gender": "M",
+      "name": "Lord Allan of Hallam",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1966-02-11"
+    },
+    {
+      "memberId": 4304,
+      "gender": "M",
+      "name": "Lord Allen of Kensington",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1957-01-04"
+    },
+    {
+      "memberId": 3482,
+      "gender": "M",
+      "name": "Lord Alli",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1964-11-16"
+    },
+    {
+      "memberId": 3710,
+      "gender": "M",
+      "name": "Lord Alliance",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1932-06-15"
+    },
+    {
+      "memberId": 4533,
+      "gender": "F",
+      "name": "Baroness Altmann",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-04-08"
+    },
+    {
+      "memberId": 738,
+      "gender": "M",
+      "name": "Lord Alton of Liverpool",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1951-03-15"
+    },
+    {
+      "memberId": 3477,
+      "gender": "F",
+      "name": "Baroness Amos",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1954-03-13"
+    },
+    {
+      "memberId": 568,
+      "gender": "M",
+      "name": "Lord Anderson of Swansea",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-06-17"
+    },
+    {
+      "memberId": 2534,
+      "gender": "F",
+      "name": "Baroness Andrews",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-05-16"
+    },
+    {
+      "memberId": 3474,
+      "gender": "F",
+      "name": "Baroness Anelay of St Johns",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1947-07-17"
+    },
+    {
+      "memberId": 56,
+      "gender": "M",
+      "name": "Lord Arbuthnot of Edrom",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1952-08-04"
+    },
+    {
+      "memberId": 1612,
+      "gender": "M",
+      "name": "Lord Archer of Weston-Super-Mare",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1940-04-15"
+    },
+    {
+      "memberId": 4150,
+      "gender": "F",
+      "name": "Baroness Armstrong of Hill Top",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-11-30"
+    },
+    {
+      "memberId": 3434,
+      "gender": "M",
+      "name": "Lord Armstrong of Ilminster",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1927-03-30"
+    },
+    {
+      "memberId": 3433,
+      "gender": "M",
+      "name": "The Earl of Arran",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-07-14"
+    },
+    {
+      "memberId": 258,
+      "gender": "M",
+      "name": "Lord Ashdown of Norton-sub-Hamdon",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-02-27"
+    },
+    {
+      "memberId": 4247,
+      "gender": "M",
+      "name": "Lord Ashton of Hyde",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1958-07-18"
+    },
+    {
+      "memberId": 2500,
+      "gender": "F",
+      "name": "Baroness Ashton of Upholland",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1956-03-20"
+    },
+    {
+      "memberId": 3429,
+      "gender": "M",
+      "name": "Viscount Astor",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-12-27"
+    },
+    {
+      "memberId": 3428,
+      "gender": "M",
+      "name": "Lord Astor of Hever",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-06-16"
+    },
+    {
+      "memberId": 3425,
+      "gender": "M",
+      "name": "Earl Attlee",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-10-03"
+    },
+    {
+      "memberId": 3451,
+      "gender": "M",
+      "name": "Lord Bach",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-12-25"
+    },
+    {
+      "memberId": 1028,
+      "gender": "M",
+      "name": "Lord Baker of Dorking",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1934-11-03"
+    },
+    {
+      "memberId": 4223,
+      "gender": "F",
+      "name": "Baroness Bakewell",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1933-04-16"
+    },
+    {
+      "memberId": 4285,
+      "gender": "F",
+      "name": "Baroness Bakewell of Hardington Mandeville",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1949-03-07"
+    },
+    {
+      "memberId": 4302,
+      "gender": "M",
+      "name": "Lord Balfe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-05-14"
+    },
+    {
+      "memberId": 4305,
+      "gender": "M",
+      "name": "Lord Bamford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-10-23"
+    },
+    {
+      "memberId": 2501,
+      "gender": "F",
+      "name": "Baroness Barker",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1961-01-31"
+    },
+    {
+      "memberId": 1389,
+      "gender": "M",
+      "name": "Lord Barker of Battle",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1966-03-08"
+    },
+    {
+      "memberId": 3504,
+      "gender": "M",
+      "name": "Lord Bassam of Brighton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-06-11"
+    },
+    {
+      "memberId": 1091,
+      "gender": "M",
+      "name": "Lord Bates",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-05-26"
+    },
+    {
+      "memberId": 4181,
+      "gender": "M",
+      "name": "Lord Beecham",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-11-17"
+    },
+    {
+      "memberId": 513,
+      "gender": "M",
+      "name": "Lord Beith",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-04-20"
+    },
+    {
+      "memberId": 3531,
+      "gender": "M",
+      "name": "Lord Bell",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-10-18"
+    },
+    {
+      "memberId": 4167,
+      "gender": "F",
+      "name": "Baroness Benjamin",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1949-09-23"
+    },
+    {
+      "memberId": 3526,
+      "gender": "M",
+      "name": "Lord Berkeley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-09-20"
+    },
+    {
+      "memberId": 4276,
+      "gender": "M",
+      "name": "Lord Berkeley of Knighton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-05-29"
+    },
+    {
+      "memberId": 4218,
+      "gender": "F",
+      "name": "Baroness Berridge",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1972-03-22"
+    },
+    {
+      "memberId": 4577,
+      "gender": "F",
+      "name": "Baroness Bertin",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1978-03-14"
+    },
+    {
+      "memberId": 3605,
+      "gender": "M",
+      "name": "Lord Best",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-06-22"
+    },
+    {
+      "memberId": 3832,
+      "gender": "M",
+      "name": "Lord Bew",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-01-22"
+    },
+    {
+      "memberId": 2165,
+      "gender": "M",
+      "name": "Lord Bhatia",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1932-03-18"
+    },
+    {
+      "memberId": 3672,
+      "gender": "M",
+      "name": "Lord Bhattacharyya",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-06-06"
+    },
+    {
+      "memberId": 3863,
+      "gender": "M",
+      "name": "Lord Bichard",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-01-31"
+    },
+    {
+      "memberId": 3809,
+      "gender": "M",
+      "name": "Lord Bilimoria",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1961-11-26"
+    },
+    {
+      "memberId": 2538,
+      "gender": "F",
+      "name": "Baroness Billingham",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-07-31"
+    },
+    {
+      "memberId": 4564,
+      "gender": "M",
+      "name": "Lord Bird",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-01-30"
+    },
+    {
+      "memberId": 4187,
+      "gender": "M",
+      "name": "The Lord Bishop of Birmingham",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1952-04-14"
+    },
+    {
+      "memberId": 2533,
+      "gender": "M",
+      "name": "Lord Birt",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-12-10"
+    },
+    {
+      "memberId": 4171,
+      "gender": "M",
+      "name": "Lord Black of Brentwood",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1964-08-06"
+    },
+    {
+      "memberId": 2182,
+      "gender": "M",
+      "name": "Lord Black of Crossharbour",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1944-08-25"
+    },
+    {
+      "memberId": 3561,
+      "gender": "F",
+      "name": "Baroness Blackstone",
+      "partyId": 10,
+      "partyName": "Independent Labour",
+      "dateOfBirth": "1942-09-27"
+    },
+    {
+      "memberId": 3550,
+      "gender": "M",
+      "name": "Lord Blackwell",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1952-07-29"
+    },
+    {
+      "memberId": 4182,
+      "gender": "M",
+      "name": "Lord Blair of Boughton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1953-03-19"
+    },
+    {
+      "memberId": 497,
+      "gender": "M",
+      "name": "Lord Blencathra",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-05-16"
+    },
+    {
+      "memberId": 2502,
+      "gender": "F",
+      "name": "Baroness Blood",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1938-05-26"
+    },
+    {
+      "memberId": 4582,
+      "gender": "F",
+      "name": "Baroness Bloomfield of Hinton Waldrist",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1960-06-30"
+    },
+    {
+      "memberId": 395,
+      "gender": "M",
+      "name": "Lord Blunkett",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-06-06"
+    },
+    {
+      "memberId": 147,
+      "gender": "M",
+      "name": "Lord Boateng",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1951-06-14"
+    },
+    {
+      "memberId": 3699,
+      "gender": "F",
+      "name": "Baroness Bonham-Carter of Yarnbury",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1957-10-20"
+    },
+    {
+      "memberId": 679,
+      "gender": "F",
+      "name": "Baroness Boothroyd",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1929-10-08"
+    },
+    {
+      "memberId": 4281,
+      "gender": "M",
+      "name": "Lord Borwick",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-03-07"
+    },
+    {
+      "memberId": 352,
+      "gender": "M",
+      "name": "Lord Boswell of Aynho",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1942-12-02"
+    },
+    {
+      "memberId": 106,
+      "gender": "F",
+      "name": "Baroness Bottomley of Nettlestone",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-03-12"
+    },
+    {
+      "memberId": 4282,
+      "gender": "M",
+      "name": "Lord Bourne of Aberystwyth",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1952-01-01"
+    },
+    {
+      "memberId": 4562,
+      "gender": "F",
+      "name": "Baroness Bowles of Berkhamsted",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1953-06-12"
+    },
+    {
+      "memberId": 3496,
+      "gender": "M",
+      "name": "Lord Bowness",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-05-19"
+    },
+    {
+      "memberId": 3630,
+      "gender": "M",
+      "name": "Lord Boyce",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-04-02"
+    },
+    {
+      "memberId": 3805,
+      "gender": "M",
+      "name": "Lord Boyd of Duncansby",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1953-06-07"
+    },
+    {
+      "memberId": 3493,
+      "gender": "M",
+      "name": "Lord Brabazon of Tara",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-12-20"
+    },
+    {
+      "memberId": 452,
+      "gender": "M",
+      "name": "Lord Bradley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-05-17"
+    },
+    {
+      "memberId": 2483,
+      "gender": "M",
+      "name": "Lord Bradshaw",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1936-09-09"
+    },
+    {
+      "memberId": 4339,
+      "gender": "F",
+      "name": "Baroness Brady",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1969-04-04"
+    },
+    {
+      "memberId": 3514,
+      "gender": "M",
+      "name": "Lord Bragg",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-10-06"
+    },
+    {
+      "memberId": 2550,
+      "gender": "M",
+      "name": "Lord Brennan",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-03-19"
+    },
+    {
+      "memberId": 3515,
+      "gender": "M",
+      "name": "Viscount Bridgeman",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1930-12-05"
+    },
+    {
+      "memberId": 4535,
+      "gender": "M",
+      "name": "Lord Bridges of Headley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1970-07-15"
+    },
+    {
+      "memberId": 4241,
+      "gender": "F",
+      "name": "Baroness Brinton",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1955-04-01"
+    },
+    {
+      "memberId": 3695,
+      "gender": "M",
+      "name": "Lord Broers",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-09-17"
+    },
+    {
+      "memberId": 3335,
+      "gender": "M",
+      "name": "Lord Brooke of Alverthorpe",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-06-21"
+    },
+    {
+      "memberId": 3333,
+      "gender": "M",
+      "name": "Viscount Brookeborough",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-06-30"
+    },
+    {
+      "memberId": 3331,
+      "gender": "M",
+      "name": "Lord Brookman",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1937-01-03"
+    },
+    {
+      "memberId": 3329,
+      "gender": "M",
+      "name": "Lord Brougham and Vaux",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-08-02"
+    },
+    {
+      "memberId": 4565,
+      "gender": "F",
+      "name": "Baroness Brown of Cambridge",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1954-07-11"
+    },
+    {
+      "memberId": 3654,
+      "gender": "M",
+      "name": "Lord Brown of Eaton-under-Heywood",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-04-09"
+    },
+    {
+      "memberId": 3801,
+      "gender": "M",
+      "name": "Lord Browne of Belmont",
+      "partyId": 7,
+      "partyName": "Democratic Unionist Party",
+      "dateOfBirth": "1947-10-29"
+    },
+    {
+      "memberId": 620,
+      "gender": "M",
+      "name": "Lord Browne of Ladyton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-03-22"
+    },
+    {
+      "memberId": 2172,
+      "gender": "M",
+      "name": "Lord Browne of Madingley",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-02-20"
+    },
+    {
+      "memberId": 236,
+      "gender": "F",
+      "name": "Baroness Browning",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-12-04"
+    },
+    {
+      "memberId": 615,
+      "gender": "M",
+      "name": "Lord Bruce of Bennachie",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1944-11-17"
+    },
+    {
+      "memberId": 238,
+      "gender": "M",
+      "name": "Lord Burnett",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1945-09-19"
+    },
+    {
+      "memberId": 4691,
+      "gender": "M",
+      "name": "Lord Burnett of Maldon",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1958-02-28"
+    },
+    {
+      "memberId": 3351,
+      "gender": "M",
+      "name": "Lord Burns",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-03-13"
+    },
+    {
+      "memberId": 1567,
+      "gender": "F",
+      "name": "Baroness Burt of Solihull",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1954-09-10"
+    },
+    {
+      "memberId": 3349,
+      "gender": "F",
+      "name": "Baroness Buscombe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-03-12"
+    },
+    {
+      "memberId": 3337,
+      "gender": "M",
+      "name": "Lord Butler of Brockwell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-01-03"
+    },
+    {
+      "memberId": 3804,
+      "gender": "F",
+      "name": "Baroness Butler-Sloss",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1933-08-10"
+    },
+    {
+      "memberId": 3343,
+      "gender": "F",
+      "name": "Baroness Byford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-01-14"
+    },
+    {
+      "memberId": 4581,
+      "gender": "M",
+      "name": "Lord Caine",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1966-04-11"
+    },
+    {
+      "memberId": 3310,
+      "gender": "M",
+      "name": "The Earl of Caithness",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-11-03"
+    },
+    {
+      "memberId": 4336,
+      "gender": "M",
+      "name": "Lord Callanan",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-08-08"
+    },
+    {
+      "memberId": 3705,
+      "gender": "M",
+      "name": "Lord Cameron of Dillington",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-11-24"
+    },
+    {
+      "memberId": 3871,
+      "gender": "F",
+      "name": "Baroness Campbell of Loughborough",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-10-10"
+    },
+    {
+      "memberId": 627,
+      "gender": "M",
+      "name": "Lord Campbell of Pittenweem",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-05-22"
+    },
+    {
+      "memberId": 3831,
+      "gender": "F",
+      "name": "Baroness Campbell of Surbiton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1959-04-19"
+    },
+    {
+      "memberId": 499,
+      "gender": "M",
+      "name": "Lord Campbell-Savours",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-08-23"
+    },
+    {
+      "memberId": 4252,
+      "gender": "M",
+      "name": "The Lord Archbishop of Canterbury",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1956-01-06"
+    },
+    {
+      "memberId": 2205,
+      "gender": "M",
+      "name": "Lord Carey of Clifton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-11-13"
+    },
+    {
+      "memberId": 1138,
+      "gender": "M",
+      "name": "Lord Carlile of Berriew",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-02-12"
+    },
+    {
+      "memberId": 4307,
+      "gender": "M",
+      "name": "The Lord Bishop of Carlisle",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1953-07-24"
+    },
+    {
+      "memberId": 3295,
+      "gender": "M",
+      "name": "Lord Carrington",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1919-06-06"
+    },
+    {
+      "memberId": 1206,
+      "gender": "M",
+      "name": "Lord Carrington of Fulham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1947-10-19"
+    },
+    {
+      "memberId": 3653,
+      "gender": "M",
+      "name": "Lord Carswell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1934-06-28"
+    },
+    {
+      "memberId": 3868,
+      "gender": "M",
+      "name": "Lord Carter of Barnes",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1964-02-12"
+    },
+    {
+      "memberId": 3680,
+      "gender": "M",
+      "name": "Lord Carter of Coles",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-02-09"
+    },
+    {
+      "memberId": 4340,
+      "gender": "M",
+      "name": "Lord Cashman",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-12-17"
+    },
+    {
+      "memberId": 2463,
+      "gender": "M",
+      "name": "Earl Cathcart",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1952-11-30"
+    },
+    {
+      "memberId": 3312,
+      "gender": "M",
+      "name": "Lord Cavendish of Furness",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-11-02"
+    },
+    {
+      "memberId": 4578,
+      "gender": "F",
+      "name": "Baroness Cavendish of Little Venice",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1968-08-20"
+    },
+    {
+      "memberId": 3318,
+      "gender": "M",
+      "name": "Lord Chadlington",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-08-24"
+    },
+    {
+      "memberId": 4579,
+      "gender": "F",
+      "name": "Baroness Chakrabarti",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1969-06-16"
+    },
+    {
+      "memberId": 778,
+      "gender": "F",
+      "name": "Baroness Chalker of Wallasey",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-04-29"
+    },
+    {
+      "memberId": 3308,
+      "gender": "M",
+      "name": "Viscount Chandos",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-02-12"
+    },
+    {
+      "memberId": 1946,
+      "gender": "M",
+      "name": "Lord Chartres",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-07-11"
+    },
+    {
+      "memberId": 4315,
+      "gender": "M",
+      "name": "The Lord Bishop of Chelmsford",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1958-08-31"
+    },
+    {
+      "memberId": 3616,
+      "gender": "M",
+      "name": "The Lord Bishop of Chester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1950-03-16"
+    },
+    {
+      "memberId": 4695,
+      "gender": "M",
+      "name": "The Lord Bishop of Chichester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1958-12-24"
+    },
+    {
+      "memberId": 50,
+      "gender": "M",
+      "name": "Lord Chidgey",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1942-07-09"
+    },
+    {
+      "memberId": 4330,
+      "gender": "F",
+      "name": "Baroness Chisholm of Owlpen",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-12-23"
+    },
+    {
+      "memberId": 3397,
+      "gender": "M",
+      "name": "The Marquess of Cholmondeley",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1960-06-27"
+    },
+    {
+      "memberId": 3395,
+      "gender": "M",
+      "name": "Lord Christopher",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1925-04-25"
+    },
+    {
+      "memberId": 3391,
+      "gender": "M",
+      "name": "The Earl of Clancarty",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-05-01"
+    },
+    {
+      "memberId": 599,
+      "gender": "F",
+      "name": "Baroness Clark of Calton",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1949-02-26"
+    },
+    {
+      "memberId": 525,
+      "gender": "M",
+      "name": "Lord Clark of Windermere",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-10-19"
+    },
+    {
+      "memberId": 3413,
+      "gender": "M",
+      "name": "Lord Clarke of Hampstead",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1932-04-17"
+    },
+    {
+      "memberId": 3890,
+      "gender": "M",
+      "name": "Lord Clarke of Stone-cum-Ebony",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-05-13"
+    },
+    {
+      "memberId": 3396,
+      "gender": "M",
+      "name": "Lord Clement-Jones",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1949-10-26"
+    },
+    {
+      "memberId": 783,
+      "gender": "M",
+      "name": "Lord Coe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-09-29"
+    },
+    {
+      "memberId": 2535,
+      "gender": "F",
+      "name": "Baroness Cohen of Pimlico",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-07-04"
+    },
+    {
+      "memberId": 4596,
+      "gender": "M",
+      "name": "Lord Colgrain",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-09-16"
+    },
+    {
+      "memberId": 4222,
+      "gender": "M",
+      "name": "Lord Collins of Highbury",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1954-12-21"
+    },
+    {
+      "memberId": 3886,
+      "gender": "M",
+      "name": "Lord Collins of Mapesbury",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-05-07"
+    },
+    {
+      "memberId": 4248,
+      "gender": "M",
+      "name": "Viscount Colville of Culross",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1959-09-05"
+    },
+    {
+      "memberId": 3394,
+      "gender": "M",
+      "name": "Lord Colwyn",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-01-01"
+    },
+    {
+      "memberId": 4327,
+      "gender": "M",
+      "name": "Lord Cooper of Windrush",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1963-06-09"
+    },
+    {
+      "memberId": 787,
+      "gender": "M",
+      "name": "Lord Cope of Berkeley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-05-13"
+    },
+    {
+      "memberId": 4574,
+      "gender": "M",
+      "name": "The Earl of Cork and Orrery",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-11-03"
+    },
+    {
+      "memberId": 282,
+      "gender": "M",
+      "name": "Lord Cormack",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-05-18"
+    },
+    {
+      "memberId": 215,
+      "gender": "F",
+      "name": "Baroness Corston",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-05-05"
+    },
+    {
+      "memberId": 3786,
+      "gender": "M",
+      "name": "Lord Cotter",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1936-08-24"
+    },
+    {
+      "memberId": 3359,
+      "gender": "M",
+      "name": "The Earl of Courtown",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-03-19"
+    },
+    {
+      "memberId": 3829,
+      "gender": "F",
+      "name": "Baroness Coussins",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-10-26"
+    },
+    {
+      "memberId": 4583,
+      "gender": "F",
+      "name": "Baroness Couttie",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1962-09-25"
+    },
+    {
+      "memberId": 4266,
+      "gender": "M",
+      "name": "The Lord Bishop of Coventry",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1959-01-12"
+    },
+    {
+      "memberId": 3364,
+      "gender": "F",
+      "name": "Baroness Cox",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-07-06"
+    },
+    {
+      "memberId": 3385,
+      "gender": "M",
+      "name": "Lord Craig of Radley",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1929-09-17"
+    },
+    {
+      "memberId": 3384,
+      "gender": "M",
+      "name": "Viscount Craigavon",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-06-09"
+    },
+    {
+      "memberId": 3380,
+      "gender": "M",
+      "name": "Lord Crathorne",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-09-12"
+    },
+    {
+      "memberId": 1614,
+      "gender": "M",
+      "name": "Earl of Crawford and Balcarres",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1927-03-05"
+    },
+    {
+      "memberId": 3386,
+      "gender": "F",
+      "name": "Baroness Crawley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-01-09"
+    },
+    {
+      "memberId": 3783,
+      "gender": "M",
+      "name": "Lord Crisp",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-01-14"
+    },
+    {
+      "memberId": 2594,
+      "gender": "M",
+      "name": "Lord Cromwell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1960-03-04"
+    },
+    {
+      "memberId": 3631,
+      "gender": "M",
+      "name": "Lord Cullen of Whitekirk",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-11-18"
+    },
+    {
+      "memberId": 2729,
+      "gender": "F",
+      "name": "Baroness Cumberlege",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-01-27"
+    },
+    {
+      "memberId": 496,
+      "gender": "M",
+      "name": "Lord Cunningham of Felling",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-08-04"
+    },
+    {
+      "memberId": 2727,
+      "gender": "M",
+      "name": "Lord Currie of Marylebone",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-12-09"
+    },
+    {
+      "memberId": 4250,
+      "gender": "M",
+      "name": "Lord Curry of Kirkharle",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-04-04"
+    },
+    {
+      "memberId": 4220,
+      "gender": "M",
+      "name": "Lord Dannatt",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-12-23"
+    },
+    {
+      "memberId": 596,
+      "gender": "M",
+      "name": "Lord Darling of Roulanish",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-11-28"
+    },
+    {
+      "memberId": 3779,
+      "gender": "M",
+      "name": "Lord Darzi of Denham",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1960-05-07"
+    },
+    {
+      "memberId": 3781,
+      "gender": "M",
+      "name": "Lord Davidson of Glen Clova",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-09-13"
+    },
+    {
+      "memberId": 3879,
+      "gender": "M",
+      "name": "Lord Davies of Abersoch",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1952-11-21"
+    },
+    {
+      "memberId": 2748,
+      "gender": "M",
+      "name": "Lord Davies of Coity",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1935-06-24"
+    },
+    {
+      "memberId": 987,
+      "gender": "M",
+      "name": "Lord Davies of Oldham",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-11-09"
+    },
+    {
+      "memberId": 346,
+      "gender": "M",
+      "name": "Lord Davies of Stamford",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-05-29"
+    },
+    {
+      "memberId": 2202,
+      "gender": "M",
+      "name": "Lord De Mauley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1957-06-30"
+    },
+    {
+      "memberId": 3808,
+      "gender": "M",
+      "name": "Lord Dear",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-09-20"
+    },
+    {
+      "memberId": 4154,
+      "gender": "M",
+      "name": "Lord Deben",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-11-26"
+    },
+    {
+      "memberId": 3756,
+      "gender": "F",
+      "name": "Baroness Deech",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-04-29"
+    },
+    {
+      "memberId": 4262,
+      "gender": "M",
+      "name": "Lord Deighton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-01-18"
+    },
+    {
+      "memberId": 2696,
+      "gender": "M",
+      "name": "Lord Denham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1927-10-03"
+    },
+    {
+      "memberId": 4143,
+      "gender": "M",
+      "name": "The Lord Bishop of Derby",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1948-09-01"
+    },
+    {
+      "memberId": 2699,
+      "gender": "M",
+      "name": "Lord Desai",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-07-10"
+    },
+    {
+      "memberId": 2685,
+      "gender": "M",
+      "name": "Lord Dholakia",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1937-03-04"
+    },
+    {
+      "memberId": 2713,
+      "gender": "M",
+      "name": "Lord Dixon-Smith",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1934-09-30"
+    },
+    {
+      "memberId": 4192,
+      "gender": "M",
+      "name": "Lord Dobbs",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-11-14"
+    },
+    {
+      "memberId": 4166,
+      "gender": "F",
+      "name": "Baroness Donaghy",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-10-09"
+    },
+    {
+      "memberId": 2709,
+      "gender": "M",
+      "name": "Lord Donoughue",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-09-08"
+    },
+    {
+      "memberId": 4197,
+      "gender": "F",
+      "name": "Baroness Doocey",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1948-05-02"
+    },
+    {
+      "memberId": 4155,
+      "gender": "F",
+      "name": "Baroness Drake",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1948-01-16"
+    },
+    {
+      "memberId": 3669,
+      "gender": "M",
+      "name": "Lord Drayson",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1960-03-05"
+    },
+    {
+      "memberId": 3709,
+      "gender": "F",
+      "name": "Baroness D'Souza",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-04-18"
+    },
+    {
+      "memberId": 805,
+      "gender": "M",
+      "name": "Lord Dubs",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1932-12-05"
+    },
+    {
+      "memberId": 4686,
+      "gender": "M",
+      "name": "Lord Duncan of Springbank",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1973-02-13"
+    },
+    {
+      "memberId": 2735,
+      "gender": "M",
+      "name": "The Earl of Dundee",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-06-05"
+    },
+    {
+      "memberId": 4534,
+      "gender": "M",
+      "name": "Lord Dunlop",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1959-06-21"
+    },
+    {
+      "memberId": 4312,
+      "gender": "M",
+      "name": "The Lord Bishop of Durham",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1955-09-18"
+    },
+    {
+      "memberId": 810,
+      "gender": "M",
+      "name": "Lord Dykes",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1939-05-17"
+    },
+    {
+      "memberId": 2793,
+      "gender": "M",
+      "name": "Lord Eames",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-04-27"
+    },
+    {
+      "memberId": 4184,
+      "gender": "F",
+      "name": "Baroness Eaton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-06-01"
+    },
+    {
+      "memberId": 2802,
+      "gender": "M",
+      "name": "Lord Eatwell",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1945-02-02"
+    },
+    {
+      "memberId": 2447,
+      "gender": "M",
+      "name": "Viscount Eccles",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1931-04-20"
+    },
+    {
+      "memberId": 2790,
+      "gender": "F",
+      "name": "Baroness Eccles of Moulton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1933-10-04"
+    },
+    {
+      "memberId": 2481,
+      "gender": "M",
+      "name": "Lord Elder",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-05-09"
+    },
+    {
+      "memberId": 2816,
+      "gender": "M",
+      "name": "Lord Elis-Thomas",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1946-10-18"
+    },
+    {
+      "memberId": 2812,
+      "gender": "M",
+      "name": "Lord Elton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1930-03-02"
+    },
+    {
+      "memberId": 4319,
+      "gender": "M",
+      "name": "The Lord Bishop of Ely",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1957-12-22"
+    },
+    {
+      "memberId": 2809,
+      "gender": "M",
+      "name": "Lord Elystan-Morgan",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1932-12-07"
+    },
+    {
+      "memberId": 2808,
+      "gender": "F",
+      "name": "Baroness Emerton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-09-10"
+    },
+    {
+      "memberId": 4216,
+      "gender": "M",
+      "name": "Lord Empey",
+      "partyId": 38,
+      "partyName": "Ulster Unionist Party",
+      "dateOfBirth": "1947-10-26"
+    },
+    {
+      "memberId": 2804,
+      "gender": "M",
+      "name": "The Earl of Erroll",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-04-20"
+    },
+    {
+      "memberId": 4329,
+      "gender": "F",
+      "name": "Baroness Evans of Bowes Park",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1975-11-29"
+    },
+    {
+      "memberId": 2766,
+      "gender": "M",
+      "name": "Lord Evans of Watford",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-11-30"
+    },
+    {
+      "memberId": 4348,
+      "gender": "M",
+      "name": "Lord Evans of Weardale",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1958-02-17"
+    },
+    {
+      "memberId": 2760,
+      "gender": "M",
+      "name": "Lord Fairfax of Cameron",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-01-04"
+    },
+    {
+      "memberId": 4690,
+      "gender": "F",
+      "name": "Baroness Fairhead",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-08-28"
+    },
+    {
+      "memberId": 2758,
+      "gender": "M",
+      "name": "Lord Falconer of Thoroton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1951-11-19"
+    },
+    {
+      "memberId": 2757,
+      "gender": "F",
+      "name": "Baroness Falkender",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1932-03-10"
+    },
+    {
+      "memberId": 2756,
+      "gender": "M",
+      "name": "Viscount Falkland",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-05-08"
+    },
+    {
+      "memberId": 3670,
+      "gender": "F",
+      "name": "Baroness Falkner of Margravine",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1955-03-09"
+    },
+    {
+      "memberId": 4561,
+      "gender": "F",
+      "name": "Baroness Fall",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1967-10-02"
+    },
+    {
+      "memberId": 4321,
+      "gender": "M",
+      "name": "Lord Farmer",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-12-17"
+    },
+    {
+      "memberId": 2472,
+      "gender": "M",
+      "name": "Lord Faulkner of Worcester",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-03-22"
+    },
+    {
+      "memberId": 4183,
+      "gender": "M",
+      "name": "Lord Faulks",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1950-08-19"
+    },
+    {
+      "memberId": 488,
+      "gender": "M",
+      "name": "Lord Fearn",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1931-02-06"
+    },
+    {
+      "memberId": 1531,
+      "gender": "F",
+      "name": "Baroness Featherstone",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1951-12-20"
+    },
+    {
+      "memberId": 4193,
+      "gender": "M",
+      "name": "Lord Feldman of Elstree",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1966-02-25"
+    },
+    {
+      "memberId": 2473,
+      "gender": "M",
+      "name": "Lord Fellowes",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-12-11"
+    },
+    {
+      "memberId": 4208,
+      "gender": "M",
+      "name": "Lord Fellowes of West Stafford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-08-17"
+    },
+    {
+      "memberId": 2491,
+      "gender": "M",
+      "name": "Lord Filkin",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1944-07-01"
+    },
+    {
+      "memberId": 4219,
+      "gender": "M",
+      "name": "Lord Fink",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1957-09-15"
+    },
+    {
+      "memberId": 4283,
+      "gender": "M",
+      "name": "Lord Finkelstein",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1962-08-30"
+    },
+    {
+      "memberId": 3609,
+      "gender": "F",
+      "name": "Baroness Finlay of Llandaff",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-02-23"
+    },
+    {
+      "memberId": 4567,
+      "gender": "F",
+      "name": "Baroness Finn",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1968-06-10"
+    },
+    {
+      "memberId": 2769,
+      "gender": "F",
+      "name": "Baroness Flather",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1934-02-13"
+    },
+    {
+      "memberId": 4211,
+      "gender": "M",
+      "name": "Lord Flight",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-06-16"
+    },
+    {
+      "memberId": 830,
+      "gender": "F",
+      "name": "Baroness Fookes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1936-02-21"
+    },
+    {
+      "memberId": 3791,
+      "gender": "F",
+      "name": "Baroness Ford",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1957-12-16"
+    },
+    {
+      "memberId": 1141,
+      "gender": "M",
+      "name": "Lord Forsyth of Drumlean",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-10-16"
+    },
+    {
+      "memberId": 214,
+      "gender": "M",
+      "name": "Lord Foster of Bath",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1947-03-31"
+    },
+    {
+      "memberId": 506,
+      "gender": "M",
+      "name": "Lord Foster of Bishop Auckland",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1937-06-25"
+    },
+    {
+      "memberId": 579,
+      "gender": "M",
+      "name": "Lord Foulkes of Cumnock",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-01-21"
+    },
+    {
+      "memberId": 315,
+      "gender": "M",
+      "name": "Lord Fowler",
+      "partyId": 283,
+      "partyName": "Lord Speaker",
+      "dateOfBirth": "1938-02-02"
+    },
+    {
+      "memberId": 4322,
+      "gender": "M",
+      "name": "Lord Fox",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1957-09-27"
+    },
+    {
+      "memberId": 134,
+      "gender": "M",
+      "name": "Lord Framlingham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-10-17"
+    },
+    {
+      "memberId": 4585,
+      "gender": "M",
+      "name": "Lord Fraser of Corriegarth",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-12-02"
+    },
+    {
+      "memberId": 836,
+      "gender": "M",
+      "name": "Lord Freeman",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-05-27"
+    },
+    {
+      "memberId": 3893,
+      "gender": "M",
+      "name": "Lord Freud",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1950-06-24"
+    },
+    {
+      "memberId": 2593,
+      "gender": "M",
+      "name": "Lord Freyberg",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1970-12-15"
+    },
+    {
+      "memberId": 3738,
+      "gender": "F",
+      "name": "Baroness Fritchie",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-04-29"
+    },
+    {
+      "memberId": 4575,
+      "gender": "M",
+      "name": "Lord Gadhia",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1970-05-27"
+    },
+    {
+      "memberId": 2503,
+      "gender": "F",
+      "name": "Baroness Gale",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-11-28"
+    },
+    {
+      "memberId": 3842,
+      "gender": "F",
+      "name": "Baroness Garden of Frognal",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1944-02-22"
+    },
+    {
+      "memberId": 4161,
+      "gender": "M",
+      "name": "Lord Gardiner of Kimble",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-03-17"
+    },
+    {
+      "memberId": 3596,
+      "gender": "F",
+      "name": "Baroness Gardner of Parkes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1927-07-17"
+    },
+    {
+      "memberId": 840,
+      "gender": "M",
+      "name": "Lord Garel-Jones",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-02-28"
+    },
+    {
+      "memberId": 2595,
+      "gender": "M",
+      "name": "Lord Geddes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-09-03"
+    },
+    {
+      "memberId": 4692,
+      "gender": "M",
+      "name": "Lord Geidt",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1961-08-17"
+    },
+    {
+      "memberId": 4163,
+      "gender": "M",
+      "name": "Lord German",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1945-05-08"
+    },
+    {
+      "memberId": 3688,
+      "gender": "M",
+      "name": "Lord Giddens",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1938-01-18"
+    },
+    {
+      "memberId": 4543,
+      "gender": "M",
+      "name": "Lord Gilbert of Panteg",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1963-07-24"
+    },
+    {
+      "memberId": 2608,
+      "gender": "M",
+      "name": "The Earl of Glasgow",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1939-07-30"
+    },
+    {
+      "memberId": 4240,
+      "gender": "M",
+      "name": "Lord Glasman",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1961-03-08"
+    },
+    {
+      "memberId": 2607,
+      "gender": "M",
+      "name": "Lord Glenarthur",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-10-07"
+    },
+    {
+      "memberId": 4236,
+      "gender": "M",
+      "name": "Lord Glendonbrook",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-02-10"
+    },
+    {
+      "memberId": 4540,
+      "gender": "F",
+      "name": "The Lord Bishop of Gloucester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1963-02-04"
+    },
+    {
+      "memberId": 4334,
+      "gender": "M",
+      "name": "Lord Goddard of Stockport",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1952-10-02"
+    },
+    {
+      "memberId": 4237,
+      "gender": "M",
+      "name": "Lord Gold",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-03-01"
+    },
+    {
+      "memberId": 4306,
+      "gender": "F",
+      "name": "Baroness Goldie",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1950-02-27"
+    },
+    {
+      "memberId": 281,
+      "gender": "F",
+      "name": "Baroness Golding",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1933-03-21"
+    },
+    {
+      "memberId": 2490,
+      "gender": "M",
+      "name": "Lord Goldsmith",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-01-05"
+    },
+    {
+      "memberId": 670,
+      "gender": "M",
+      "name": "Lord Goodlad",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-07-04"
+    },
+    {
+      "memberId": 2598,
+      "gender": "M",
+      "name": "Lord Gordon of Strathblane",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-05-17"
+    },
+    {
+      "memberId": 3602,
+      "gender": "M",
+      "name": "Viscount Goschen",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1965-11-16"
+    },
+    {
+      "memberId": 3575,
+      "gender": "F",
+      "name": "Baroness Goudie",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-09-02"
+    },
+    {
+      "memberId": 3573,
+      "gender": "F",
+      "name": "Baroness Gould of Potternewton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1932-10-29"
+    },
+    {
+      "memberId": 2496,
+      "gender": "M",
+      "name": "Lord Grabiner",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-03-21"
+    },
+    {
+      "memberId": 4228,
+      "gender": "M",
+      "name": "Lord Grade of Yarmouth",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-03-08"
+    },
+    {
+      "memberId": 1068,
+      "gender": "M",
+      "name": "Lord Graham of Edmonton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1925-03-26"
+    },
+    {
+      "memberId": 3577,
+      "gender": "M",
+      "name": "Lord Grantchester",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1951-04-08"
+    },
+    {
+      "memberId": 2569,
+      "gender": "M",
+      "name": "Lord Greaves",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1942-07-27"
+    },
+    {
+      "memberId": 4346,
+      "gender": "M",
+      "name": "Lord Green of Deddington",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-08-06"
+    },
+    {
+      "memberId": 4191,
+      "gender": "M",
+      "name": "Lord Green of Hurstpierpoint",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-11-07"
+    },
+    {
+      "memberId": 2166,
+      "gender": "F",
+      "name": "Baroness Greenfield",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-10-01"
+    },
+    {
+      "memberId": 2518,
+      "gender": "F",
+      "name": "Baroness Greengross",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-06-29"
+    },
+    {
+      "memberId": 3569,
+      "gender": "M",
+      "name": "Lord Greenway",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-05-21"
+    },
+    {
+      "memberId": 4291,
+      "gender": "F",
+      "name": "Baroness Grender",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1962-08-19"
+    },
+    {
+      "memberId": 3862,
+      "gender": "F",
+      "name": "Baroness Grey-Thompson",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1969-07-26"
+    },
+    {
+      "memberId": 3707,
+      "gender": "M",
+      "name": "Lord Griffiths of Burry Port",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-02-15"
+    },
+    {
+      "memberId": 3595,
+      "gender": "M",
+      "name": "Lord Griffiths of Fforestfach",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-12-27"
+    },
+    {
+      "memberId": 276,
+      "gender": "M",
+      "name": "Lord Grocott",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-11-01"
+    },
+    {
+      "memberId": 3608,
+      "gender": "M",
+      "name": "Lord Guthrie of Craigiebank",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-11-17"
+    },
+    {
+      "memberId": 379,
+      "gender": "M",
+      "name": "Lord Hague of Richmond",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-03-26"
+    },
+    {
+      "memberId": 349,
+      "gender": "M",
+      "name": "Viscount Hailsham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-02-05"
+    },
+    {
+      "memberId": 567,
+      "gender": "M",
+      "name": "Lord Hain",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-02-16"
+    },
+    {
+      "memberId": 3652,
+      "gender": "F",
+      "name": "Baroness Hale of Richmond",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1945-01-31"
+    },
+    {
+      "memberId": 3765,
+      "gender": "M",
+      "name": "Lord Hall of Birkenhead",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1951-03-03"
+    },
+    {
+      "memberId": 3767,
+      "gender": "M",
+      "name": "Lord Hameed",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-07-01"
+    },
+    {
+      "memberId": 100,
+      "gender": "M",
+      "name": "Lord Hamilton of Epsom",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-12-30"
+    },
+    {
+      "memberId": 2652,
+      "gender": "F",
+      "name": "Baroness Hamwee",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1947-01-12"
+    },
+    {
+      "memberId": 2477,
+      "gender": "F",
+      "name": "Baroness Hanham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-09-23"
+    },
+    {
+      "memberId": 2167,
+      "gender": "M",
+      "name": "Lord Hannay of Chiswick",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-09-28"
+    },
+    {
+      "memberId": 2650,
+      "gender": "M",
+      "name": "Lord Hanningfield",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1940-09-16"
+    },
+    {
+      "memberId": 2648,
+      "gender": "M",
+      "name": "Viscount Hanworth",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-02-16"
+    },
+    {
+      "memberId": 2647,
+      "gender": "M",
+      "name": "Lord Hardie",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-01-08"
+    },
+    {
+      "memberId": 4324,
+      "gender": "F",
+      "name": "Baroness Harding of Winscombe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1967-11-09"
+    },
+    {
+      "memberId": 3813,
+      "gender": "M",
+      "name": "Lord Harries of Pentregarth",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1936-06-02"
+    },
+    {
+      "memberId": 2671,
+      "gender": "M",
+      "name": "Lord Harris of Haringey",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-10-11"
+    },
+    {
+      "memberId": 2669,
+      "gender": "M",
+      "name": "Lord Harris of Peckham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-09-15"
+    },
+    {
+      "memberId": 2505,
+      "gender": "F",
+      "name": "Baroness Harris of Richmond",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1944-01-04"
+    },
+    {
+      "memberId": 2488,
+      "gender": "M",
+      "name": "Lord Harrison",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-09-28"
+    },
+    {
+      "memberId": 2665,
+      "gender": "M",
+      "name": "Lord Haskel",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-10-09"
+    },
+    {
+      "memberId": 2644,
+      "gender": "M",
+      "name": "Lord Haskins",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-05-30"
+    },
+    {
+      "memberId": 3759,
+      "gender": "M",
+      "name": "Lord Hastings of Scarisbrick",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1958-01-29"
+    },
+    {
+      "memberId": 4296,
+      "gender": "M",
+      "name": "Lord Haughey",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1956-07-02"
+    },
+    {
+      "memberId": 3704,
+      "gender": "M",
+      "name": "Lord Haworth",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1948-04-26"
+    },
+    {
+      "memberId": 4352,
+      "gender": "M",
+      "name": "Lord Hay of Ballyore",
+      "partyId": 7,
+      "partyName": "Democratic Unionist Party",
+      "dateOfBirth": "1950-04-16"
+    },
+    {
+      "memberId": 1649,
+      "gender": "F",
+      "name": "Baroness Hayman",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-03-26"
+    },
+    {
+      "memberId": 4159,
+      "gender": "F",
+      "name": "Baroness Hayter of Kentish Town",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1949-09-07"
+    },
+    {
+      "memberId": 863,
+      "gender": "M",
+      "name": "Lord Hayward",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-03-11"
+    },
+    {
+      "memberId": 4179,
+      "gender": "F",
+      "name": "Baroness Healy of Primrose Hill",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-05-10"
+    },
+    {
+      "memberId": 4331,
+      "gender": "F",
+      "name": "Baroness Helic",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1968-04-20"
+    },
+    {
+      "memberId": 3679,
+      "gender": "F",
+      "name": "Baroness Henig",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-11-10"
+    },
+    {
+      "memberId": 2616,
+      "gender": "M",
+      "name": "Lord Henley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-11-22"
+    },
+    {
+      "memberId": 4189,
+      "gender": "M",
+      "name": "Lord Hennessy of Nympsfield",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-03-28"
+    },
+    {
+      "memberId": 94,
+      "gender": "M",
+      "name": "Lord Heseltine",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1933-03-21"
+    },
+    {
+      "memberId": 1067,
+      "gender": "M",
+      "name": "Lord Higgins",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1928-01-18"
+    },
+    {
+      "memberId": 4144,
+      "gender": "M",
+      "name": "Lord Hill of Oareford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1960-07-24"
+    },
+    {
+      "memberId": 2637,
+      "gender": "F",
+      "name": "Baroness Hilton of Eggardon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-01-12"
+    },
+    {
+      "memberId": 4301,
+      "gender": "F",
+      "name": "Baroness Hodgson of Abinger",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-11-07"
+    },
+    {
+      "memberId": 1651,
+      "gender": "M",
+      "name": "Lord Hodgson of Astley Abbotts",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-04-25"
+    },
+    {
+      "memberId": 2633,
+      "gender": "M",
+      "name": "Lord Hoffmann",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1934-05-08"
+    },
+    {
+      "memberId": 4693,
+      "gender": "M",
+      "name": "Lord Hogan-Howe",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1957-10-25"
+    },
+    {
+      "memberId": 2632,
+      "gender": "F",
+      "name": "Baroness Hogg",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-05-14"
+    },
+    {
+      "memberId": 2732,
+      "gender": "M",
+      "name": "Lord Hollick",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-05-20"
+    },
+    {
+      "memberId": 4190,
+      "gender": "F",
+      "name": "Baroness Hollins",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-06-22"
+    },
+    {
+      "memberId": 1845,
+      "gender": "F",
+      "name": "Baroness Hollis of Heigham",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1941-05-24"
+    },
+    {
+      "memberId": 4294,
+      "gender": "M",
+      "name": "Lord Holmes of Richmond",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1971-10-15"
+    },
+    {
+      "memberId": 2007,
+      "gender": "M",
+      "name": "The Earl of Home",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-11-20"
+    },
+    {
+      "memberId": 2005,
+      "gender": "F",
+      "name": "Baroness Hooper",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-05-25"
+    },
+    {
+      "memberId": 2004,
+      "gender": "M",
+      "name": "Lord Hope of Craighead",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-06-27"
+    },
+    {
+      "memberId": 196,
+      "gender": "M",
+      "name": "Lord Horam",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-03-07"
+    },
+    {
+      "memberId": 4694,
+      "gender": "M",
+      "name": "Lord Houghton of Richmond",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1954-10-18"
+    },
+    {
+      "memberId": 82,
+      "gender": "M",
+      "name": "Lord Howard of Lympne",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-07-07"
+    },
+    {
+      "memberId": 3674,
+      "gender": "M",
+      "name": "Lord Howard of Rising",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-04-22"
+    },
+    {
+      "memberId": 3607,
+      "gender": "F",
+      "name": "Baroness Howarth of Breckland",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1940-09-05"
+    },
+    {
+      "memberId": 544,
+      "gender": "M",
+      "name": "Lord Howarth of Newport",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-06-11"
+    },
+    {
+      "memberId": 2000,
+      "gender": "M",
+      "name": "Earl Howe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-01-29"
+    },
+    {
+      "memberId": 3610,
+      "gender": "F",
+      "name": "Baroness Howe of Idlicote",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1932-02-08"
+    },
+    {
+      "memberId": 993,
+      "gender": "M",
+      "name": "Lord Howell of Guildford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1936-01-18"
+    },
+    {
+      "memberId": 2486,
+      "gender": "F",
+      "name": "Baroness Howells of St Davids",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1931-01-10"
+    },
+    {
+      "memberId": 1000,
+      "gender": "M",
+      "name": "Lord Hoyle",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1930-02-17"
+    },
+    {
+      "memberId": 459,
+      "gender": "F",
+      "name": "Baroness Hughes of Stretford",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-03-30"
+    },
+    {
+      "memberId": 1051,
+      "gender": "M",
+      "name": "Lord Hughes of Woodside",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1932-01-03"
+    },
+    {
+      "memberId": 4300,
+      "gender": "F",
+      "name": "Baroness Humphreys",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1947-05-26"
+    },
+    {
+      "memberId": 2543,
+      "gender": "M",
+      "name": "Lord Hunt of Chesterton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1941-09-05"
+    },
+    {
+      "memberId": 2024,
+      "gender": "M",
+      "name": "Lord Hunt of Kings Heath",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1949-05-19"
+    },
+    {
+      "memberId": 994,
+      "gender": "M",
+      "name": "Lord Hunt of Wirral",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-05-21"
+    },
+    {
+      "memberId": 4221,
+      "gender": "M",
+      "name": "Lord Hussain",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1956-03-27"
+    },
+    {
+      "memberId": 4164,
+      "gender": "F",
+      "name": "Baroness Hussein-Ece",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1953-10-10"
+    },
+    {
+      "memberId": 494,
+      "gender": "M",
+      "name": "Lord Hutton of Furness",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-05-06"
+    },
+    {
+      "memberId": 2018,
+      "gender": "M",
+      "name": "Lord Hylton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1932-06-13"
+    },
+    {
+      "memberId": 1980,
+      "gender": "M",
+      "name": "Lord Inglewood",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-07-31"
+    },
+    {
+      "memberId": 1976,
+      "gender": "M",
+      "name": "Lord Irvine of Lairg",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-06-23"
+    },
+    {
+      "memberId": 3799,
+      "gender": "M",
+      "name": "Lord James of Blackheath",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-12-07"
+    },
+    {
+      "memberId": 4337,
+      "gender": "F",
+      "name": "Baroness Janke",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1947-06-05"
+    },
+    {
+      "memberId": 3838,
+      "gender": "M",
+      "name": "Lord Janvrin",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-09-20"
+    },
+    {
+      "memberId": 3818,
+      "gender": "M",
+      "name": "Lord Jay of Ewelme",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-06-19"
+    },
+    {
+      "memberId": 1970,
+      "gender": "F",
+      "name": "Baroness Jay of Paddington",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-11-18"
+    },
+    {
+      "memberId": 4229,
+      "gender": "F",
+      "name": "Baroness Jenkin of Kennington",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-12-08"
+    },
+    {
+      "memberId": 4203,
+      "gender": "F",
+      "name": "Baroness Jolly",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1951-04-27"
+    },
+    {
+      "memberId": 530,
+      "gender": "M",
+      "name": "Lord Jones",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1937-06-26"
+    },
+    {
+      "memberId": 3775,
+      "gender": "M",
+      "name": "Lord Jones of Birmingham",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1955-10-28"
+    },
+    {
+      "memberId": 248,
+      "gender": "M",
+      "name": "Lord Jones of Cheltenham",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1948-03-30"
+    },
+    {
+      "memberId": 4297,
+      "gender": "F",
+      "name": "Baroness Jones of Moulsecoomb",
+      "partyId": 44,
+      "partyName": "Green Party",
+      "dateOfBirth": "1949-12-23"
+    },
+    {
+      "memberId": 3792,
+      "gender": "F",
+      "name": "Baroness Jones of Whitchurch",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-05-22"
+    },
+    {
+      "memberId": 883,
+      "gender": "M",
+      "name": "Lord Jopling",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1930-12-10"
+    },
+    {
+      "memberId": 2552,
+      "gender": "M",
+      "name": "Lord Jordan",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-01-28"
+    },
+    {
+      "memberId": 1660,
+      "gender": "M",
+      "name": "Lord Judd",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1935-03-28"
+    },
+    {
+      "memberId": 3867,
+      "gender": "M",
+      "name": "Lord Judge",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-05-19"
+    },
+    {
+      "memberId": 3766,
+      "gender": "M",
+      "name": "Lord Kakkar",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1964-04-28"
+    },
+    {
+      "memberId": 3668,
+      "gender": "M",
+      "name": "Lord Kalms",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1931-11-21"
+    },
+    {
+      "memberId": 4538,
+      "gender": "M",
+      "name": "Lord Keen of Elie",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-03-29"
+    },
+    {
+      "memberId": 4303,
+      "gender": "F",
+      "name": "Baroness Kennedy of Cradley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1969-03-22"
+    },
+    {
+      "memberId": 4153,
+      "gender": "M",
+      "name": "Lord Kennedy of Southwark",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1962-11-09"
+    },
+    {
+      "memberId": 1987,
+      "gender": "F",
+      "name": "Baroness Kennedy of The Shaws",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-02-12"
+    },
+    {
+      "memberId": 3708,
+      "gender": "M",
+      "name": "Lord Kerr of Kinlochard",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-02-22"
+    },
+    {
+      "memberId": 3894,
+      "gender": "M",
+      "name": "Lord Kerr of Tonaghmore",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1948-02-22"
+    },
+    {
+      "memberId": 4355,
+      "gender": "M",
+      "name": "Lord Kerslake",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1955-02-28"
+    },
+    {
+      "memberId": 4225,
+      "gender": "M",
+      "name": "Lord Kestenbaum",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1959-08-05"
+    },
+    {
+      "memberId": 4258,
+      "gender": "F",
+      "name": "Baroness Kidron",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1961-05-02"
+    },
+    {
+      "memberId": 657,
+      "gender": "M",
+      "name": "Lord Kilclooney",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-12-24"
+    },
+    {
+      "memberId": 143,
+      "gender": "F",
+      "name": "Baroness King of Bow",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1967-10-22"
+    },
+    {
+      "memberId": 254,
+      "gender": "M",
+      "name": "Lord King of Bridgwater",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1933-06-13"
+    },
+    {
+      "memberId": 4280,
+      "gender": "M",
+      "name": "Lord King of Lothbury",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-03-30"
+    },
+    {
+      "memberId": 3788,
+      "gender": "F",
+      "name": "Baroness Kingsmill",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-04-24"
+    },
+    {
+      "memberId": 693,
+      "gender": "M",
+      "name": "Lord Kinnock",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-03-28"
+    },
+    {
+      "memberId": 3895,
+      "gender": "F",
+      "name": "Baroness Kinnock of Holyhead",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-07-07"
+    },
+    {
+      "memberId": 4354,
+      "gender": "M",
+      "name": "The Earl of Kinnoull",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1962-12-20"
+    },
+    {
+      "memberId": 2495,
+      "gender": "M",
+      "name": "Lord Kirkham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-12-14"
+    },
+    {
+      "memberId": 891,
+      "gender": "M",
+      "name": "Lord Kirkhope of Harrogate",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-04-29"
+    },
+    {
+      "memberId": 635,
+      "gender": "M",
+      "name": "Lord Kirkwood of Kirkhope",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1946-04-22"
+    },
+    {
+      "memberId": 4160,
+      "gender": "M",
+      "name": "Lord Knight of Weymouth",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1965-03-06"
+    },
+    {
+      "memberId": 1557,
+      "gender": "F",
+      "name": "Baroness Kramer",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1950-07-21"
+    },
+    {
+      "memberId": 3736,
+      "gender": "M",
+      "name": "Lord Krebs",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-04-11"
+    },
+    {
+      "memberId": 2479,
+      "gender": "M",
+      "name": "Lord Laird",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1944-04-23"
+    },
+    {
+      "memberId": 2079,
+      "gender": "M",
+      "name": "Lord Laming",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1936-06-19"
+    },
+    {
+      "memberId": 895,
+      "gender": "M",
+      "name": "Lord Lamont of Lerwick",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-05-08"
+    },
+    {
+      "memberId": 4275,
+      "gender": "F",
+      "name": "Baroness Lane-Fox of Soho",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1973-02-10"
+    },
+    {
+      "memberId": 896,
+      "gender": "M",
+      "name": "Lord Lang of Monkton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1940-06-27"
+    },
+    {
+      "memberId": 123,
+      "gender": "M",
+      "name": "Lord Lansley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-12-11"
+    },
+    {
+      "memberId": 4290,
+      "gender": "F",
+      "name": "Baroness Lawrence of Clarendon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-10-24"
+    },
+    {
+      "memberId": 1039,
+      "gender": "M",
+      "name": "Lord Lawson of Blaby",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1932-03-11"
+    },
+    {
+      "memberId": 2540,
+      "gender": "M",
+      "name": "Lord Layard",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-03-15"
+    },
+    {
+      "memberId": 2482,
+      "gender": "M",
+      "name": "Lord Lea of Crondall",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1937-11-02"
+    },
+    {
+      "memberId": 1132,
+      "gender": "M",
+      "name": "Lord Lee of Trafford",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1942-06-21"
+    },
+    {
+      "memberId": 4349,
+      "gender": "M",
+      "name": "The Lord Bishop of Leeds",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1957-11-13"
+    },
+    {
+      "memberId": 4295,
+      "gender": "M",
+      "name": "Lord Leigh of Hurley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1959-04-03"
+    },
+    {
+      "memberId": 3677,
+      "gender": "M",
+      "name": "Lord Leitch",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-10-20"
+    },
+    {
+      "memberId": 4338,
+      "gender": "M",
+      "name": "Lord Lennie",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-02-22"
+    },
+    {
+      "memberId": 2037,
+      "gender": "M",
+      "name": "Lord Lester of Herne Hill",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1936-07-03"
+    },
+    {
+      "memberId": 2035,
+      "gender": "M",
+      "name": "Lord Levene of Portsoken",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-12-08"
+    },
+    {
+      "memberId": 2033,
+      "gender": "M",
+      "name": "Lord Levy",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-07-11"
+    },
+    {
+      "memberId": 4202,
+      "gender": "M",
+      "name": "Lord Lexden",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-04-20"
+    },
+    {
+      "memberId": 573,
+      "gender": "F",
+      "name": "Baroness Liddell of Coatdyke",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-12-06"
+    },
+    {
+      "memberId": 4156,
+      "gender": "M",
+      "name": "Lord Liddle",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-06-14"
+    },
+    {
+      "memberId": 4688,
+      "gender": "M",
+      "name": "The Lord Bishop of Lincoln",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1953-02-03"
+    },
+    {
+      "memberId": 2059,
+      "gender": "M",
+      "name": "The Earl of Lindsay",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-11-19"
+    },
+    {
+      "memberId": 4194,
+      "gender": "M",
+      "name": "Lord Lingfield",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-07-31"
+    },
+    {
+      "memberId": 2492,
+      "gender": "M",
+      "name": "Lord Lipsey",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1948-04-21"
+    },
+    {
+      "memberId": 4234,
+      "gender": "F",
+      "name": "Baroness Lister of Burtersett",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1949-05-03"
+    },
+    {
+      "memberId": 2054,
+      "gender": "M",
+      "name": "The Earl of Listowel",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1964-06-28"
+    },
+    {
+      "memberId": 4351,
+      "gender": "M",
+      "name": "Lord Lisvane",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-02-05"
+    },
+    {
+      "memberId": 4559,
+      "gender": "M",
+      "name": "Lord Livermore",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1975-06-12"
+    },
+    {
+      "memberId": 2045,
+      "gender": "M",
+      "name": "The Earl of Liverpool",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-11-14"
+    },
+    {
+      "memberId": 4278,
+      "gender": "M",
+      "name": "Lord Livingston of Parkhead",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1964-07-28"
+    },
+    {
+      "memberId": 4590,
+      "gender": "M",
+      "name": "Lord Llewellyn of Steep",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1965-09-23"
+    },
+    {
+      "memberId": 4696,
+      "gender": "F",
+      "name": "The Lord Bishop of London",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1962-03-26"
+    },
+    {
+      "memberId": 4209,
+      "gender": "M",
+      "name": "Lord Loomba",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-11-13"
+    },
+    {
+      "memberId": 259,
+      "gender": "M",
+      "name": "The Marquess of Lothian",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-07-07"
+    },
+    {
+      "memberId": 3803,
+      "gender": "M",
+      "name": "Lord Low of Dalston",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-09-23"
+    },
+    {
+      "memberId": 1879,
+      "gender": "M",
+      "name": "Lord Lucas",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-06-07"
+    },
+    {
+      "memberId": 908,
+      "gender": "M",
+      "name": "Lord Luce",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1936-10-14"
+    },
+    {
+      "memberId": 1867,
+      "gender": "F",
+      "name": "Baroness Ludford",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1951-03-14"
+    },
+    {
+      "memberId": 4550,
+      "gender": "M",
+      "name": "Lord Lupton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-06-15"
+    },
+    {
+      "memberId": 1864,
+      "gender": "M",
+      "name": "The Earl of Lytton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-06-07"
+    },
+    {
+      "memberId": 4158,
+      "gender": "M",
+      "name": "Lord McAvoy",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-12-14"
+    },
+    {
+      "memberId": 1892,
+      "gender": "M",
+      "name": "Lord McColl of Dulwich",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1933-01-06"
+    },
+    {
+      "memberId": 4168,
+      "gender": "M",
+      "name": "Lord McConnell of Glenscorrodale",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1960-06-30"
+    },
+    {
+      "memberId": 3701,
+      "gender": "F",
+      "name": "Baroness McDonagh",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1961-06-26"
+    },
+    {
+      "memberId": 4172,
+      "gender": "M",
+      "name": "Lord Macdonald of River Glaven",
+      "partyId": null,
+      "partyName": "",
+      "dateOfBirth": "1953-01-04"
+    },
+    {
+      "memberId": 4148,
+      "gender": "M",
+      "name": "Lord McFall of Alcluith",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1944-10-04"
+    },
+    {
+      "memberId": 131,
+      "gender": "M",
+      "name": "Lord MacGregor of Pulham Market",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-02-14"
+    },
+    {
+      "memberId": 4554,
+      "gender": "F",
+      "name": "Baroness McGregor-Smith",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1963-02-22"
+    },
+    {
+      "memberId": 4576,
+      "gender": "M",
+      "name": "Lord McInnes of Kilwinning",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1976-11-04"
+    },
+    {
+      "memberId": 2506,
+      "gender": "F",
+      "name": "Baroness McIntosh of Hudnall",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-09-23"
+    },
+    {
+      "memberId": 384,
+      "gender": "F",
+      "name": "Baroness McIntosh of Pickering",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-09-20"
+    },
+    {
+      "memberId": 1883,
+      "gender": "M",
+      "name": "Lord Mackay of Clashfern",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1927-07-02"
+    },
+    {
+      "memberId": 2507,
+      "gender": "M",
+      "name": "Lord MacKenzie of Culkein",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-02-25"
+    },
+    {
+      "memberId": 1881,
+      "gender": "M",
+      "name": "Lord Mackenzie of Framwellgate",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1943-03-21"
+    },
+    {
+      "memberId": 3694,
+      "gender": "M",
+      "name": "Lord McKenzie of Luton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-07-24"
+    },
+    {
+      "memberId": 578,
+      "gender": "M",
+      "name": "Lord Maclennan of Rogart",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1936-06-26"
+    },
+    {
+      "memberId": 919,
+      "gender": "M",
+      "name": "Lord McNally",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-02-20"
+    },
+    {
+      "memberId": 4586,
+      "gender": "M",
+      "name": "Lord Macpherson of Earl's Court",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1959-07-14"
+    },
+    {
+      "memberId": 685,
+      "gender": "F",
+      "name": "Baroness Maddock",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1945-05-19"
+    },
+    {
+      "memberId": 4227,
+      "gender": "M",
+      "name": "Lord Magan of Castletown",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-11-14"
+    },
+    {
+      "memberId": 648,
+      "gender": "M",
+      "name": "Lord Maginnis of Drumglass",
+      "partyId": 52,
+      "partyName": "Independent Ulster Unionist",
+      "dateOfBirth": "1938-01-21"
+    },
+    {
+      "memberId": 4563,
+      "gender": "M",
+      "name": "Lord Mair",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-04-20"
+    },
+    {
+      "memberId": 1846,
+      "gender": "F",
+      "name": "Baroness Mallalieu",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-11-27"
+    },
+    {
+      "memberId": 3774,
+      "gender": "M",
+      "name": "Lord Malloch-Brown",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1953-09-16"
+    },
+    {
+      "memberId": 3754,
+      "gender": "M",
+      "name": "Lord Mance",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-06-06"
+    },
+    {
+      "memberId": 1833,
+      "gender": "M",
+      "name": "Lord Mancroft",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1957-05-16"
+    },
+    {
+      "memberId": 500,
+      "gender": "M",
+      "name": "Lord Mandelson",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1953-10-21"
+    },
+    {
+      "memberId": 3857,
+      "gender": "F",
+      "name": "Baroness Manningham-Buller",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-07-14"
+    },
+    {
+      "memberId": 4289,
+      "gender": "F",
+      "name": "Baroness Manzoor",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1958-05-25"
+    },
+    {
+      "memberId": 1861,
+      "gender": "F",
+      "name": "The Countess of Mar",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1940-09-19"
+    },
+    {
+      "memberId": 4206,
+      "gender": "M",
+      "name": "Lord Marks of Henley-on-Thames",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1952-10-19"
+    },
+    {
+      "memberId": 3797,
+      "gender": "M",
+      "name": "Lord Marland",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-08-14"
+    },
+    {
+      "memberId": 1854,
+      "gender": "M",
+      "name": "Lord Marlesford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1931-10-11"
+    },
+    {
+      "memberId": 1850,
+      "gender": "F",
+      "name": "Baroness Masham of Ilton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-04-14"
+    },
+    {
+      "memberId": 2489,
+      "gender": "F",
+      "name": "Baroness Massey of Darwen",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1938-09-05"
+    },
+    {
+      "memberId": 115,
+      "gender": "M",
+      "name": "Lord Maude of Horsham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-07-04"
+    },
+    {
+      "memberId": 121,
+      "gender": "M",
+      "name": "Lord Mawhinney",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1940-07-26"
+    },
+    {
+      "memberId": 3830,
+      "gender": "M",
+      "name": "Lord Mawson",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1954-11-08"
+    },
+    {
+      "memberId": 607,
+      "gender": "M",
+      "name": "Lord Maxton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-05-05"
+    },
+    {
+      "memberId": 3810,
+      "gender": "F",
+      "name": "Baroness Meacher",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1940-05-15"
+    },
+    {
+      "memberId": 4286,
+      "gender": "M",
+      "name": "Lord Mendelsohn",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1966-12-30"
+    },
+    {
+      "memberId": 1934,
+      "gender": "F",
+      "name": "Baroness Miller of Chilthorne Domer",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1954-01-01"
+    },
+    {
+      "memberId": 2570,
+      "gender": "M",
+      "name": "Lord Mitchell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-05-06"
+    },
+    {
+      "memberId": 4335,
+      "gender": "F",
+      "name": "Baroness Mobarik",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1957-10-16"
+    },
+    {
+      "memberId": 3855,
+      "gender": "M",
+      "name": "Lord Mogg",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-10-05"
+    },
+    {
+      "memberId": 4544,
+      "gender": "F",
+      "name": "Baroness Mone",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1971-10-07"
+    },
+    {
+      "memberId": 4186,
+      "gender": "M",
+      "name": "Lord Monks",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-08-05"
+    },
+    {
+      "memberId": 1922,
+      "gender": "M",
+      "name": "The Duke of Montrose",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1935-04-06"
+    },
+    {
+      "memberId": 621,
+      "gender": "M",
+      "name": "Lord Moonie",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-02-25"
+    },
+    {
+      "memberId": 1022,
+      "gender": "M",
+      "name": "Lord Moore of Lower Marsh",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-11-26"
+    },
+    {
+      "memberId": 2555,
+      "gender": "M",
+      "name": "Lord Morgan",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-05-16"
+    },
+    {
+      "memberId": 3685,
+      "gender": "F",
+      "name": "Baroness Morgan of Drefelin",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1961-08-30"
+    },
+    {
+      "memberId": 4226,
+      "gender": "F",
+      "name": "Baroness Morgan of Ely",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1967-02-16"
+    },
+    {
+      "memberId": 2168,
+      "gender": "F",
+      "name": "Baroness Morgan of Huyton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1959-06-28"
+    },
+    {
+      "memberId": 565,
+      "gender": "M",
+      "name": "Lord Morris of Aberavon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1931-11-05"
+    },
+    {
+      "memberId": 3681,
+      "gender": "F",
+      "name": "Baroness Morris of Bolton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-01-01"
+    },
+    {
+      "memberId": 3796,
+      "gender": "M",
+      "name": "Lord Morris of Handsworth",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1938-10-19"
+    },
+    {
+      "memberId": 305,
+      "gender": "F",
+      "name": "Baroness Morris of Yardley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-06-17"
+    },
+    {
+      "memberId": 3795,
+      "gender": "M",
+      "name": "Lord Morrow",
+      "partyId": 7,
+      "partyName": "Democratic Unionist Party",
+      "dateOfBirth": "1948-09-27"
+    },
+    {
+      "memberId": 4539,
+      "gender": "M",
+      "name": "Lord Mountevans",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-05-13"
+    },
+    {
+      "memberId": 924,
+      "gender": "M",
+      "name": "Lord Moynihan",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-09-13"
+    },
+    {
+      "memberId": 3692,
+      "gender": "F",
+      "name": "Baroness Murphy",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-01-16"
+    },
+    {
+      "memberId": 546,
+      "gender": "M",
+      "name": "Lord Murphy of Torfaen",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1948-11-25"
+    },
+    {
+      "memberId": 3869,
+      "gender": "M",
+      "name": "Lord Myners",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-04-01"
+    },
+    {
+      "memberId": 1251,
+      "gender": "M",
+      "name": "Lord Naseby",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1936-11-25"
+    },
+    {
+      "memberId": 4270,
+      "gender": "M",
+      "name": "Lord Nash",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-03-22"
+    },
+    {
+      "memberId": 3690,
+      "gender": "F",
+      "name": "Baroness Neuberger",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-02-27"
+    },
+    {
+      "memberId": 3827,
+      "gender": "M",
+      "name": "Lord Neuberger of Abbotsbury",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-01-10"
+    },
+    {
+      "memberId": 3840,
+      "gender": "F",
+      "name": "Baroness Neville-Jones",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-11-02"
+    },
+    {
+      "memberId": 4284,
+      "gender": "F",
+      "name": "Baroness Neville-Rolfe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-01-02"
+    },
+    {
+      "memberId": 1916,
+      "gender": "M",
+      "name": "Lord Newby",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1953-02-14"
+    },
+    {
+      "memberId": 4568,
+      "gender": "F",
+      "name": "The Lord Bishop of Newcastle",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1951-08-27"
+    },
+    {
+      "memberId": 4177,
+      "gender": "F",
+      "name": "Baroness Newlove",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-12-28"
+    },
+    {
+      "memberId": 1164,
+      "gender": "F",
+      "name": "Baroness Nicholson of Winterbourne",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-10-16"
+    },
+    {
+      "memberId": 2554,
+      "gender": "F",
+      "name": "Baroness Noakes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-06-23"
+    },
+    {
+      "memberId": 2194,
+      "gender": "M",
+      "name": "The Duke of Norfolk",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1956-12-02"
+    },
+    {
+      "memberId": 3201,
+      "gender": "M",
+      "name": "Lord Northbourne",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1926-02-18"
+    },
+    {
+      "memberId": 3191,
+      "gender": "M",
+      "name": "Lord Northbrook",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-05-21"
+    },
+    {
+      "memberId": 2539,
+      "gender": "F",
+      "name": "Baroness Northover",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1954-08-21"
+    },
+    {
+      "memberId": 3187,
+      "gender": "M",
+      "name": "Lord Norton of Louth",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-03-05"
+    },
+    {
+      "memberId": 3655,
+      "gender": "M",
+      "name": "The Lord Bishop of Norwich",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1951-01-19"
+    },
+    {
+      "memberId": 4180,
+      "gender": "F",
+      "name": "Baroness Nye",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-05-17"
+    },
+    {
+      "memberId": 2536,
+      "gender": "M",
+      "name": "Lord Oakeshott of Seagrove Bay",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1947-01-10"
+    },
+    {
+      "memberId": 4549,
+      "gender": "M",
+      "name": "Lord Oates",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1969-12-28"
+    },
+    {
+      "memberId": 3217,
+      "gender": "F",
+      "name": "Baroness O'Cathain",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-02-03"
+    },
+    {
+      "memberId": 4255,
+      "gender": "M",
+      "name": "Lord O'Donnell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-10-01"
+    },
+    {
+      "memberId": 3902,
+      "gender": "F",
+      "name": "Baroness O'Loan",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1951-12-20"
+    },
+    {
+      "memberId": 2441,
+      "gender": "F",
+      "name": "Baroness O'Neill of Bengarve",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-08-23"
+    },
+    {
+      "memberId": 629,
+      "gender": "M",
+      "name": "Lord O'Neill of Clackmannan",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-01-06"
+    },
+    {
+      "memberId": 4536,
+      "gender": "M",
+      "name": "Lord O'Neill of Gatley",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1957-03-17"
+    },
+    {
+      "memberId": 3210,
+      "gender": "F",
+      "name": "Baroness Oppenheim-Barnes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1930-07-26"
+    },
+    {
+      "memberId": 4545,
+      "gender": "M",
+      "name": "Lord O'Shaughnessy",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1976-03-26"
+    },
+    {
+      "memberId": 2170,
+      "gender": "M",
+      "name": "Lord Ouseley",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-03-24"
+    },
+    {
+      "memberId": 992,
+      "gender": "M",
+      "name": "Lord Owen",
+      "partyId": 53,
+      "partyName": "Independent Social Democrat",
+      "dateOfBirth": "1938-07-02"
+    },
+    {
+      "memberId": 2494,
+      "gender": "M",
+      "name": "Lord Oxburgh",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1934-11-02"
+    },
+    {
+      "memberId": 4279,
+      "gender": "M",
+      "name": "The Lord Bishop of Oxford",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1957-05-29"
+    },
+    {
+      "memberId": 4343,
+      "gender": "M",
+      "name": "The Earl of Oxford and Asquith",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1952-08-24"
+    },
+    {
+      "memberId": 4288,
+      "gender": "M",
+      "name": "Lord Paddick",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1958-04-24"
+    },
+    {
+      "memberId": 3192,
+      "gender": "M",
+      "name": "Lord Palmer",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1951-10-08"
+    },
+    {
+      "memberId": 4214,
+      "gender": "M",
+      "name": "Lord Palmer of Childs Hill",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1938-11-30"
+    },
+    {
+      "memberId": 3167,
+      "gender": "M",
+      "name": "Lord Palumbo",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1935-07-20"
+    },
+    {
+      "memberId": 4310,
+      "gender": "M",
+      "name": "Lord Palumbo of Southwark",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1963-06-06"
+    },
+    {
+      "memberId": 3870,
+      "gender": "M",
+      "name": "Lord Pannick",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1956-03-07"
+    },
+    {
+      "memberId": 2545,
+      "gender": "M",
+      "name": "Lord Parekh",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1935-01-04"
+    },
+    {
+      "memberId": 4178,
+      "gender": "F",
+      "name": "Baroness Parminter",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1964-06-24"
+    },
+    {
+      "memberId": 2443,
+      "gender": "M",
+      "name": "Lord Patel",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-01-01"
+    },
+    {
+      "memberId": 2526,
+      "gender": "M",
+      "name": "Lord Patel of Blackburn",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-06-07"
+    },
+    {
+      "memberId": 3798,
+      "gender": "M",
+      "name": "Lord Patel of Bradford",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1960-09-28"
+    },
+    {
+      "memberId": 1137,
+      "gender": "M",
+      "name": "Lord Patten",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-07-17"
+    },
+    {
+      "memberId": 1136,
+      "gender": "M",
+      "name": "Lord Patten of Barnes",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-05-12"
+    },
+    {
+      "memberId": 3163,
+      "gender": "M",
+      "name": "Lord Paul",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1931-02-18"
+    },
+    {
+      "memberId": 3153,
+      "gender": "M",
+      "name": "Lord Pearson of Rannoch",
+      "partyId": 35,
+      "partyName": "UK Independence Party",
+      "dateOfBirth": "1942-07-02"
+    },
+    {
+      "memberId": 3161,
+      "gender": "M",
+      "name": "Earl Peel",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-10-03"
+    },
+    {
+      "memberId": 457,
+      "gender": "M",
+      "name": "Lord Pendry",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-06-10"
+    },
+    {
+      "memberId": 4313,
+      "gender": "M",
+      "name": "The Lord Bishop of Peterborough",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1952-08-27"
+    },
+    {
+      "memberId": 2439,
+      "gender": "M",
+      "name": "Lord Phillips of Worth Matravers",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-01-21"
+    },
+    {
+      "memberId": 4552,
+      "gender": "F",
+      "name": "Baroness Pidding",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1966-01-13"
+    },
+    {
+      "memberId": 4341,
+      "gender": "F",
+      "name": "Baroness Pinnock",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1946-09-25"
+    },
+    {
+      "memberId": 3179,
+      "gender": "F",
+      "name": "Baroness Pitkeathley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-01-04"
+    },
+    {
+      "memberId": 3169,
+      "gender": "M",
+      "name": "Lord Plant of Highfield",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-03-19"
+    },
+    {
+      "memberId": 4547,
+      "gender": "M",
+      "name": "Lord Polak",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-03-28"
+    },
+    {
+      "memberId": 3154,
+      "gender": "M",
+      "name": "Lord Ponsonby of Shulbrede",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1958-10-27"
+    },
+    {
+      "memberId": 4173,
+      "gender": "M",
+      "name": "Lord Popat",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-06-14"
+    },
+    {
+      "memberId": 4555,
+      "gender": "M",
+      "name": "Lord Porter of Spalding",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1960-09-08"
+    },
+    {
+      "memberId": 4314,
+      "gender": "M",
+      "name": "The Lord Bishop of Portsmouth",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1953-11-07"
+    },
+    {
+      "memberId": 2527,
+      "gender": "M",
+      "name": "Lord Powell of Bayswater",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-07-06"
+    },
+    {
+      "memberId": 2476,
+      "gender": "F",
+      "name": "Baroness Prashar",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-06-29"
+    },
+    {
+      "memberId": 374,
+      "gender": "M",
+      "name": "Lord Prescott",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1938-05-31"
+    },
+    {
+      "memberId": 4570,
+      "gender": "M",
+      "name": "Lord Price",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1961-03-02"
+    },
+    {
+      "memberId": 217,
+      "gender": "F",
+      "name": "Baroness Primarolo",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1954-05-02"
+    },
+    {
+      "memberId": 127,
+      "gender": "M",
+      "name": "Lord Prior of Brampton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-12-03"
+    },
+    {
+      "memberId": 3684,
+      "gender": "F",
+      "name": "Baroness Prosser",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1937-08-22"
+    },
+    {
+      "memberId": 4293,
+      "gender": "M",
+      "name": "Lord Purvis of Tweed",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1974-01-15"
+    },
+    {
+      "memberId": 3268,
+      "gender": "M",
+      "name": "Lord Puttnam",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1941-02-25"
+    },
+    {
+      "memberId": 518,
+      "gender": "F",
+      "name": "Baroness Quin",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-11-26"
+    },
+    {
+      "memberId": 510,
+      "gender": "M",
+      "name": "Lord Radice",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-10-04"
+    },
+    {
+      "memberId": 3276,
+      "gender": "F",
+      "name": "Baroness Ramsay of Cartvale",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-07-12"
+    },
+    {
+      "memberId": 3744,
+      "gender": "M",
+      "name": "Lord Ramsbotham",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1934-11-06"
+    },
+    {
+      "memberId": 3689,
+      "gender": "M",
+      "name": "Lord Rana",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-09-20"
+    },
+    {
+      "memberId": 4230,
+      "gender": "F",
+      "name": "Baroness Randerson",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1948-05-26"
+    },
+    {
+      "memberId": 3278,
+      "gender": "F",
+      "name": "Baroness Rawlings",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1939-01-27"
+    },
+    {
+      "memberId": 3275,
+      "gender": "M",
+      "name": "Lord Razzall",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-06-12"
+    },
+    {
+      "memberId": 3274,
+      "gender": "M",
+      "name": "Lord Rea",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1928-06-06"
+    },
+    {
+      "memberId": 4332,
+      "gender": "F",
+      "name": "Baroness Rebuck",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-02-10"
+    },
+    {
+      "memberId": 3271,
+      "gender": "M",
+      "name": "Lord Redesdale",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1967-07-18"
+    },
+    {
+      "memberId": 4551,
+      "gender": "F",
+      "name": "Baroness Redfern",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1947-09-25"
+    },
+    {
+      "memberId": 3751,
+      "gender": "M",
+      "name": "Lord Rees of Ludlow",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-06-23"
+    },
+    {
+      "memberId": 617,
+      "gender": "M",
+      "name": "Lord Reid of Cardowan",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-05-08"
+    },
+    {
+      "memberId": 3234,
+      "gender": "M",
+      "name": "Lord Renfrew of Kaimsthorn",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-07-25"
+    },
+    {
+      "memberId": 2484,
+      "gender": "M",
+      "name": "Lord Rennard",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1960-07-08"
+    },
+    {
+      "memberId": 4195,
+      "gender": "M",
+      "name": "Lord Ribeiro",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-01-20"
+    },
+    {
+      "memberId": 4317,
+      "gender": "M",
+      "name": "Lord Richards of Herstmonceux",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-03-04"
+    },
+    {
+      "memberId": 3235,
+      "gender": "F",
+      "name": "Baroness Richardson of Calow",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-02-24"
+    },
+    {
+      "memberId": 4587,
+      "gender": "M",
+      "name": "Lord Ricketts",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-09-30"
+    },
+    {
+      "memberId": 4272,
+      "gender": "M",
+      "name": "Viscount Ridley",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1958-02-07"
+    },
+    {
+      "memberId": 139,
+      "gender": "M",
+      "name": "Lord Risby",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-09-24"
+    },
+    {
+      "memberId": 334,
+      "gender": "M",
+      "name": "Lord Robathan",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-07-17"
+    },
+    {
+      "memberId": 3691,
+      "gender": "M",
+      "name": "Lord Roberts of Llandudno",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1935-10-23"
+    },
+    {
+      "memberId": 672,
+      "gender": "M",
+      "name": "Lord Robertson of Port Ellen",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1946-04-12"
+    },
+    {
+      "memberId": 4318,
+      "gender": "M",
+      "name": "The Lord Bishop of Rochester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1956-06-27"
+    },
+    {
+      "memberId": 4556,
+      "gender": "F",
+      "name": "Baroness Rock",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1968-10-09"
+    },
+    {
+      "memberId": 940,
+      "gender": "M",
+      "name": "Lord Rodgers of Quarry Bank",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1928-10-28"
+    },
+    {
+      "memberId": 2478,
+      "gender": "M",
+      "name": "Lord Rogan",
+      "partyId": 38,
+      "partyName": "Ulster Unionist Party",
+      "dateOfBirth": "1942-06-30"
+    },
+    {
+      "memberId": 3242,
+      "gender": "M",
+      "name": "Lord Rogers of Riverside",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1933-07-23"
+    },
+    {
+      "memberId": 302,
+      "gender": "M",
+      "name": "Lord Rooker",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1941-06-05"
+    },
+    {
+      "memberId": 4326,
+      "gender": "M",
+      "name": "Lord Rose of Monewden",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-03-17"
+    },
+    {
+      "memberId": 3687,
+      "gender": "M",
+      "name": "Lord Rosser",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1944-10-05"
+    },
+    {
+      "memberId": 3135,
+      "gender": "M",
+      "name": "The Earl of Rosslyn",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1958-03-31"
+    },
+    {
+      "memberId": 2143,
+      "gender": "M",
+      "name": "Lord Rotherwick",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1954-03-12"
+    },
+    {
+      "memberId": 3806,
+      "gender": "M",
+      "name": "Lord Rowe-Beddoe",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1937-12-19"
+    },
+    {
+      "memberId": 554,
+      "gender": "M",
+      "name": "Lord Rowlands",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-01-23"
+    },
+    {
+      "memberId": 3703,
+      "gender": "F",
+      "name": "Baroness Royall of Blaisdon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-08-20"
+    },
+    {
+      "memberId": 2134,
+      "gender": "M",
+      "name": "Lord Russell of Liverpool",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-08-30"
+    },
+    {
+      "memberId": 1250,
+      "gender": "M",
+      "name": "Lord Ryder of Wensum",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1949-02-04"
+    },
+    {
+      "memberId": 2154,
+      "gender": "M",
+      "name": "Lord Saatchi",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-06-21"
+    },
+    {
+      "memberId": 3901,
+      "gender": "M",
+      "name": "Lord Sacks",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1948-03-08"
+    },
+    {
+      "memberId": 2162,
+      "gender": "M",
+      "name": "Lord Sainsbury of Preston Candover",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1927-11-02"
+    },
+    {
+      "memberId": 2161,
+      "gender": "M",
+      "name": "Lord Sainsbury of Turville",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-10-24"
+    },
+    {
+      "memberId": 4308,
+      "gender": "M",
+      "name": "The Lord Bishop of St Albans",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1957-02-14"
+    },
+    {
+      "memberId": 2155,
+      "gender": "M",
+      "name": "Lord St John of Bletso",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1957-05-16"
+    },
+    {
+      "memberId": 4350,
+      "gender": "M",
+      "name": "The Lord Bishop of Salisbury",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1954-08-08"
+    },
+    {
+      "memberId": 2109,
+      "gender": "M",
+      "name": "The Earl of Sandwich",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1943-04-11"
+    },
+    {
+      "memberId": 4146,
+      "gender": "M",
+      "name": "Lord Sassoon",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-09-11"
+    },
+    {
+      "memberId": 2106,
+      "gender": "M",
+      "name": "Lord Saville of Newdigate",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1936-03-20"
+    },
+    {
+      "memberId": 2105,
+      "gender": "M",
+      "name": "Lord Sawyer",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-05-12"
+    },
+    {
+      "memberId": 2099,
+      "gender": "F",
+      "name": "Baroness Scotland of Asthal",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1955-08-19"
+    },
+    {
+      "memberId": 4553,
+      "gender": "F",
+      "name": "Baroness Scott of Bybrook",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1947-06-13"
+    },
+    {
+      "memberId": 2542,
+      "gender": "F",
+      "name": "Baroness Scott of Needham Market",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1957-08-10"
+    },
+    {
+      "memberId": 4333,
+      "gender": "M",
+      "name": "Lord Scriven",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1966-02-07"
+    },
+    {
+      "memberId": 2097,
+      "gender": "F",
+      "name": "Baroness Seccombe",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1930-05-03"
+    },
+    {
+      "memberId": 2102,
+      "gender": "M",
+      "name": "The Earl of Selborne",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1940-03-24"
+    },
+    {
+      "memberId": 802,
+      "gender": "M",
+      "name": "Lord Selkirk of Douglas",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-07-31"
+    },
+    {
+      "memberId": 2127,
+      "gender": "M",
+      "name": "Lord Selsdon",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-10-27"
+    },
+    {
+      "memberId": 4198,
+      "gender": "F",
+      "name": "Baroness Shackleton of Belgravia",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-05-26"
+    },
+    {
+      "memberId": 4196,
+      "gender": "M",
+      "name": "Lord Sharkey",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1947-09-24"
+    },
+    {
+      "memberId": 4548,
+      "gender": "F",
+      "name": "Baroness Sheehan",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1959-07-29"
+    },
+    {
+      "memberId": 3794,
+      "gender": "M",
+      "name": "Lord Sheikh",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-06-13"
+    },
+    {
+      "memberId": 132,
+      "gender": "F",
+      "name": "Baroness Shephard of Northwold",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1940-01-22"
+    },
+    {
+      "memberId": 4287,
+      "gender": "M",
+      "name": "Lord Sherbourne of Didsbury",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-10-15"
+    },
+    {
+      "memberId": 4147,
+      "gender": "F",
+      "name": "Baroness Sherlock",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1960-11-10"
+    },
+    {
+      "memberId": 4325,
+      "gender": "F",
+      "name": "Baroness Shields",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1962-07-12"
+    },
+    {
+      "memberId": 4557,
+      "gender": "M",
+      "name": "Lord Shinkwin",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1971-06-07"
+    },
+    {
+      "memberId": 4176,
+      "gender": "M",
+      "name": "Lord Shipley",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1946-07-05"
+    },
+    {
+      "memberId": 2147,
+      "gender": "M",
+      "name": "The Earl of Shrewsbury",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1952-12-18"
+    },
+    {
+      "memberId": 2546,
+      "gender": "M",
+      "name": "Lord Shutt of Greetland",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1942-03-16"
+    },
+    {
+      "memberId": 3128,
+      "gender": "M",
+      "name": "Viscount Simon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-07-20"
+    },
+    {
+      "memberId": 4251,
+      "gender": "M",
+      "name": "Lord Singh of Wimbledon",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1932-09-17"
+    },
+    {
+      "memberId": 3121,
+      "gender": "M",
+      "name": "Lord Skelmersdale",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-04-02"
+    },
+    {
+      "memberId": 3120,
+      "gender": "M",
+      "name": "Lord Skidelsky",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1939-04-25"
+    },
+    {
+      "memberId": 3118,
+      "gender": "M",
+      "name": "Viscount Slim",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1927-07-20"
+    },
+    {
+      "memberId": 4170,
+      "gender": "F",
+      "name": "Baroness Smith of Basildon",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1959-01-07"
+    },
+    {
+      "memberId": 3144,
+      "gender": "M",
+      "name": "Lord Smith of Clifton",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1937-06-14"
+    },
+    {
+      "memberId": 186,
+      "gender": "M",
+      "name": "Lord Smith of Finsbury",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1951-07-24"
+    },
+    {
+      "memberId": 3125,
+      "gender": "F",
+      "name": "Baroness Smith of Gilmorehill",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-06-04"
+    },
+    {
+      "memberId": 4542,
+      "gender": "M",
+      "name": "Lord Smith of Hindhead",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1966-02-16"
+    },
+    {
+      "memberId": 3856,
+      "gender": "M",
+      "name": "Lord Smith of Kelvin",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-08-08"
+    },
+    {
+      "memberId": 2509,
+      "gender": "M",
+      "name": "Lord Smith of Leigh",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-07-24"
+    },
+    {
+      "memberId": 4323,
+      "gender": "F",
+      "name": "Baroness Smith of Newnham",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1969-06-01"
+    },
+    {
+      "memberId": 319,
+      "gender": "M",
+      "name": "Lord Snape",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-02-12"
+    },
+    {
+      "memberId": 160,
+      "gender": "M",
+      "name": "Lord Soley",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-05-07"
+    },
+    {
+      "memberId": 3147,
+      "gender": "M",
+      "name": "The Duke of Somerset",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-12-30"
+    },
+    {
+      "memberId": 4345,
+      "gender": "M",
+      "name": "The Lord Bishop of Southwark",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1956-08-05"
+    },
+    {
+      "memberId": 270,
+      "gender": "M",
+      "name": "Lord Spicer",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-01-22"
+    },
+    {
+      "memberId": 3137,
+      "gender": "M",
+      "name": "The Earl of Stair",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1961-09-04"
+    },
+    {
+      "memberId": 4174,
+      "gender": "F",
+      "name": "Baroness Stedman-Scott",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-11-23"
+    },
+    {
+      "memberId": 949,
+      "gender": "M",
+      "name": "Lord Steel of Aikwood",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1938-03-31"
+    },
+    {
+      "memberId": 4239,
+      "gender": "M",
+      "name": "Lord Stephen",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1960-03-23"
+    },
+    {
+      "memberId": 2228,
+      "gender": "M",
+      "name": "Lord Sterling of Plaistow",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1934-12-27"
+    },
+    {
+      "memberId": 2475,
+      "gender": "F",
+      "name": "Baroness Stern",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1941-09-25"
+    },
+    {
+      "memberId": 3846,
+      "gender": "M",
+      "name": "Lord Stern of Brentford",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-04-22"
+    },
+    {
+      "memberId": 3733,
+      "gender": "M",
+      "name": "Lord Stevens of Kirkwhelpington",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-10-21"
+    },
+    {
+      "memberId": 2227,
+      "gender": "M",
+      "name": "Lord Stevens of Ludgate",
+      "partyId": 35,
+      "partyName": "UK Independence Party",
+      "dateOfBirth": "1936-05-26"
+    },
+    {
+      "memberId": 4175,
+      "gender": "M",
+      "name": "Lord Stevenson of Balmacara",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-04-19"
+    },
+    {
+      "memberId": 2474,
+      "gender": "M",
+      "name": "Lord Stevenson of Coddenham",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-07-19"
+    },
+    {
+      "memberId": 4233,
+      "gender": "M",
+      "name": "Lord Stirrup",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-12-04"
+    },
+    {
+      "memberId": 950,
+      "gender": "M",
+      "name": "Lord Stoddart of Swindon",
+      "partyId": 10,
+      "partyName": "Independent Labour",
+      "dateOfBirth": "1926-05-04"
+    },
+    {
+      "memberId": 2222,
+      "gender": "M",
+      "name": "Lord Stone of Blackheath",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-09-07"
+    },
+    {
+      "memberId": 4215,
+      "gender": "M",
+      "name": "Lord Stoneham of Droxford",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1948-08-24"
+    },
+    {
+      "memberId": 4238,
+      "gender": "M",
+      "name": "Lord Storey",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1949-05-25"
+    },
+    {
+      "memberId": 4205,
+      "gender": "F",
+      "name": "Baroness Stowell of Beeston",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1967-07-02"
+    },
+    {
+      "memberId": 4204,
+      "gender": "M",
+      "name": "Lord Strasburger",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1946-07-31"
+    },
+    {
+      "memberId": 2221,
+      "gender": "M",
+      "name": "Lord Strathclyde",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1960-02-22"
+    },
+    {
+      "memberId": 4546,
+      "gender": "F",
+      "name": "Baroness Stroud",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1965-04-02"
+    },
+    {
+      "memberId": 445,
+      "gender": "M",
+      "name": "Lord Stunell",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1942-11-24"
+    },
+    {
+      "memberId": 3897,
+      "gender": "M",
+      "name": "Lord Sugar",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-03-24"
+    },
+    {
+      "memberId": 4584,
+      "gender": "F",
+      "name": "Baroness Sugg",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1977-05-02"
+    },
+    {
+      "memberId": 4328,
+      "gender": "M",
+      "name": "Lord Suri",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1935-02-10"
+    },
+    {
+      "memberId": 4298,
+      "gender": "F",
+      "name": "Baroness Suttie",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1968-08-27"
+    },
+    {
+      "memberId": 2235,
+      "gender": "M",
+      "name": "Lord Swinfen",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-12-14"
+    },
+    {
+      "memberId": 2233,
+      "gender": "F",
+      "name": "Baroness Symons of Vernham Dean",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1951-04-14"
+    },
+    {
+      "memberId": 1696,
+      "gender": "M",
+      "name": "Lord Taverne",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1928-10-18"
+    },
+    {
+      "memberId": 407,
+      "gender": "F",
+      "name": "Baroness Taylor of Bolton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-07-02"
+    },
+    {
+      "memberId": 228,
+      "gender": "M",
+      "name": "Lord Taylor of Goss Moor",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1963-01-03"
+    },
+    {
+      "memberId": 3787,
+      "gender": "M",
+      "name": "Lord Taylor of Holbeach",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1943-11-12"
+    },
+    {
+      "memberId": 1796,
+      "gender": "M",
+      "name": "Lord Taylor of Warwick",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1952-09-21"
+    },
+    {
+      "memberId": 952,
+      "gender": "M",
+      "name": "Lord Tebbit",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1931-03-29"
+    },
+    {
+      "memberId": 3789,
+      "gender": "M",
+      "name": "Lord Teverson",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1952-03-31"
+    },
+    {
+      "memberId": 4309,
+      "gender": "M",
+      "name": "Lord Thomas of Cwmgiedd",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1947-10-22"
+    },
+    {
+      "memberId": 1804,
+      "gender": "M",
+      "name": "Lord Thomas of Gresford",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1937-03-13"
+    },
+    {
+      "memberId": 3785,
+      "gender": "F",
+      "name": "Baroness Thomas of Winchester",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1945-10-14"
+    },
+    {
+      "memberId": 4558,
+      "gender": "F",
+      "name": "Baroness Thornhill",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1955-05-26"
+    },
+    {
+      "memberId": 1782,
+      "gender": "F",
+      "name": "Baroness Thornton",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-10-16"
+    },
+    {
+      "memberId": 4353,
+      "gender": "M",
+      "name": "Lord Thurlow",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1952-04-13"
+    },
+    {
+      "memberId": 1399,
+      "gender": "M",
+      "name": "Viscount Thurso",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1953-09-10"
+    },
+    {
+      "memberId": 1702,
+      "gender": "M",
+      "name": "Lord Tomlinson",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1939-08-01"
+    },
+    {
+      "memberId": 200,
+      "gender": "F",
+      "name": "Baroness Tonge",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1941-02-19"
+    },
+    {
+      "memberId": 1703,
+      "gender": "M",
+      "name": "Lord Tope",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-11-30"
+    },
+    {
+      "memberId": 542,
+      "gender": "M",
+      "name": "Lord Touhig",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1947-12-05"
+    },
+    {
+      "memberId": 4260,
+      "gender": "M",
+      "name": "Lord Trees",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1946-06-12"
+    },
+    {
+      "memberId": 1813,
+      "gender": "M",
+      "name": "Lord Trefgarne",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-03-31"
+    },
+    {
+      "memberId": 1829,
+      "gender": "M",
+      "name": "Viscount Trenchard",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-03-12"
+    },
+    {
+      "memberId": 4560,
+      "gender": "M",
+      "name": "Lord Trevethin and Oaksey",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1960-06-29"
+    },
+    {
+      "memberId": 3651,
+      "gender": "M",
+      "name": "Lord Triesman",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-10-30"
+    },
+    {
+      "memberId": 658,
+      "gender": "M",
+      "name": "Lord Trimble",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1944-10-15"
+    },
+    {
+      "memberId": 4200,
+      "gender": "M",
+      "name": "Lord True",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-07-31"
+    },
+    {
+      "memberId": 3682,
+      "gender": "M",
+      "name": "Lord Truscott",
+      "partyId": 10,
+      "partyName": "Independent Labour",
+      "dateOfBirth": "1959-03-20"
+    },
+    {
+      "memberId": 1705,
+      "gender": "M",
+      "name": "Lord Tugendhat",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1937-02-23"
+    },
+    {
+      "memberId": 3671,
+      "gender": "M",
+      "name": "Lord Tunnicliffe",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-01-17"
+    },
+    {
+      "memberId": 2537,
+      "gender": "M",
+      "name": "Lord Turnberg",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1934-03-22"
+    },
+    {
+      "memberId": 3758,
+      "gender": "M",
+      "name": "Lord Turnbull",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1945-01-21"
+    },
+    {
+      "memberId": 3752,
+      "gender": "M",
+      "name": "Lord Turner of Ecchinswell",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1955-10-05"
+    },
+    {
+      "memberId": 225,
+      "gender": "M",
+      "name": "Lord Tyler",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-10-29"
+    },
+    {
+      "memberId": 4231,
+      "gender": "F",
+      "name": "Baroness Tyler of Enfield",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1957-06-04"
+    },
+    {
+      "memberId": 112,
+      "gender": "M",
+      "name": "Lord Tyrie",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1957-01-15"
+    },
+    {
+      "memberId": 1827,
+      "gender": "F",
+      "name": "Baroness Uddin",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1959-07-17"
+    },
+    {
+      "memberId": 1828,
+      "gender": "M",
+      "name": "Viscount Ullswater",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1942-01-09"
+    },
+    {
+      "memberId": 3777,
+      "gender": "F",
+      "name": "Baroness Vadera",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
+      "dateOfBirth": "1962-06-23"
+    },
+    {
+      "memberId": 3757,
+      "gender": "F",
+      "name": "Baroness Valentine",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1958-12-08"
+    },
+    {
+      "memberId": 3697,
+      "gender": "M",
+      "name": "Lord Vallance of Tummel",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-05-20"
+    },
+    {
+      "memberId": 4687,
+      "gender": "M",
+      "name": "Lord Vaux of Harrowden",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1965-03-16"
+    },
+    {
+      "memberId": 4580,
+      "gender": "F",
+      "name": "Baroness Vere of Norbiton",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1969-03-09"
+    },
+    {
+      "memberId": 4299,
+      "gender": "M",
+      "name": "Lord Verjee",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1957-06-26"
+    },
+    {
+      "memberId": 3790,
+      "gender": "F",
+      "name": "Baroness Verma",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1959-06-30"
+    },
+    {
+      "memberId": 1807,
+      "gender": "M",
+      "name": "Lord Vinson",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1931-01-27"
+    },
+    {
+      "memberId": 1278,
+      "gender": "M",
+      "name": "Lord Wakeham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1932-06-22"
+    },
+    {
+      "memberId": 957,
+      "gender": "M",
+      "name": "Lord Waldegrave of North Hill",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1946-08-15"
+    },
+    {
+      "memberId": 3825,
+      "gender": "M",
+      "name": "Lord Walker of Aldringham",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1944-07-07"
+    },
+    {
+      "memberId": 2199,
+      "gender": "M",
+      "name": "Lord Walker of Gestingthorpe",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1938-03-17"
+    },
+    {
+      "memberId": 1816,
+      "gender": "M",
+      "name": "Lord Wallace of Saltaire",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-03-12"
+    },
+    {
+      "memberId": 630,
+      "gender": "M",
+      "name": "Lord Wallace of Tankerness",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1954-08-25"
+    },
+    {
+      "memberId": 2547,
+      "gender": "F",
+      "name": "Baroness Walmsley",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1943-12-04"
+    },
+    {
+      "memberId": 1732,
+      "gender": "M",
+      "name": "Lord Warner",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1940-09-08"
+    },
+    {
+      "memberId": 3839,
+      "gender": "F",
+      "name": "Baroness Warsi",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1971-03-28"
+    },
+    {
+      "memberId": 2471,
+      "gender": "F",
+      "name": "Baroness Warwick of Undercliffe",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1945-07-16"
+    },
+    {
+      "memberId": 4207,
+      "gender": "M",
+      "name": "Lord Wasserman",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1938-07-26"
+    },
+    {
+      "memberId": 4566,
+      "gender": "F",
+      "name": "Baroness Watkins of Tavistock",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1955-03-05"
+    },
+    {
+      "memberId": 1241,
+      "gender": "M",
+      "name": "Lord Watson of Invergowrie",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1949-05-01"
+    },
+    {
+      "memberId": 2487,
+      "gender": "M",
+      "name": "Lord Watson of Richmond",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-02-03"
+    },
+    {
+      "memberId": 489,
+      "gender": "M",
+      "name": "Lord Watts",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1951-08-26"
+    },
+    {
+      "memberId": 1744,
+      "gender": "M",
+      "name": "Viscount Waverley",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-10-31"
+    },
+    {
+      "memberId": 4145,
+      "gender": "M",
+      "name": "Lord Wei",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1977-01-19"
+    },
+    {
+      "memberId": 4541,
+      "gender": "M",
+      "name": "The Duke of Wellington",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1945-08-19"
+    },
+    {
+      "memberId": 3834,
+      "gender": "M",
+      "name": "Lord West of Spithead",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1948-04-21"
+    },
+    {
+      "memberId": 4199,
+      "gender": "F",
+      "name": "Baroness Wheatcroft",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1951-09-28"
+    },
+    {
+      "memberId": 4157,
+      "gender": "F",
+      "name": "Baroness Wheeler",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1949-03-25"
+    },
+    {
+      "memberId": 2510,
+      "gender": "F",
+      "name": "Baroness Whitaker",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1936-02-20"
+    },
+    {
+      "memberId": 4292,
+      "gender": "M",
+      "name": "Lord Whitby",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1948-02-06"
+    },
+    {
+      "memberId": 2444,
+      "gender": "M",
+      "name": "Lord Whitty",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1943-06-15"
+    },
+    {
+      "memberId": 547,
+      "gender": "M",
+      "name": "Lord Wigley",
+      "partyId": 22,
+      "partyName": "Plaid Cymru",
+      "dateOfBirth": "1943-04-01"
+    },
+    {
+      "memberId": 1727,
+      "gender": "F",
+      "name": "Baroness Wilcox",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1940-10-31"
+    },
+    {
+      "memberId": 53,
+      "gender": "M",
+      "name": "Lord Willetts",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1956-03-09"
+    },
+    {
+      "memberId": 1728,
+      "gender": "M",
+      "name": "Lord Williams of Elvel",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1933-02-09"
+    },
+    {
+      "memberId": 3620,
+      "gender": "M",
+      "name": "Lord Williams of Oystermouth",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1950-06-14"
+    },
+    {
+      "memberId": 4311,
+      "gender": "F",
+      "name": "Baroness Williams of Trafford",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1967-05-16"
+    },
+    {
+      "memberId": 4151,
+      "gender": "M",
+      "name": "Lord Willis of Knaresborough",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1941-11-30"
+    },
+    {
+      "memberId": 1775,
+      "gender": "M",
+      "name": "Lord Willoughby de Broke",
+      "partyId": 35,
+      "partyName": "UK Independence Party",
+      "dateOfBirth": "1938-09-14"
+    },
+    {
+      "memberId": 260,
+      "gender": "M",
+      "name": "Lord Wills",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1952-05-20"
+    },
+    {
+      "memberId": 2206,
+      "gender": "M",
+      "name": "Lord Wilson of Dinton",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1942-10-11"
+    },
+    {
+      "memberId": 1763,
+      "gender": "M",
+      "name": "Lord Wilson of Tillyorn",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1935-02-14"
+    },
+    {
+      "memberId": 4256,
+      "gender": "M",
+      "name": "The Lord Bishop of Winchester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1958-02-06"
+    },
+    {
+      "memberId": 1770,
+      "gender": "M",
+      "name": "Lord Winston",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-07-15"
+    },
+    {
+      "memberId": 4347,
+      "gender": "F",
+      "name": "Baroness Wolf of Dulwich",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1949-10-31"
+    },
+    {
+      "memberId": 4152,
+      "gender": "M",
+      "name": "Lord Wolfson of Aspley Guise",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1967-10-27"
+    },
+    {
+      "memberId": 4217,
+      "gender": "M",
+      "name": "Lord Wood of Anfield",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1968-03-25"
+    },
+    {
+      "memberId": 1773,
+      "gender": "M",
+      "name": "Lord Woolf",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1933-05-02"
+    },
+    {
+      "memberId": 964,
+      "gender": "M",
+      "name": "Lord Woolmer of Leeds",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1940-04-25"
+    },
+    {
+      "memberId": 4257,
+      "gender": "M",
+      "name": "The Lord Bishop of Worcester",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1955-02-26"
+    },
+    {
+      "memberId": 4235,
+      "gender": "F",
+      "name": "Baroness Worthington",
+      "partyId": null,
+      "partyName": "",
+      "dateOfBirth": "1971-09-19"
+    },
+    {
+      "memberId": 965,
+      "gender": "M",
+      "name": "Lord Wrigglesworth",
+      "partyId": 17,
+      "partyName": "Liberal Democrat",
+      "dateOfBirth": "1939-12-08"
+    },
+    {
+      "memberId": 1767,
+      "gender": "M",
+      "name": "Lord Wright of Richmond",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1931-06-28"
+    },
+    {
+      "memberId": 4685,
+      "gender": "F",
+      "name": "Baroness Wyld",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1978-01-13"
+    },
+    {
+      "memberId": 3762,
+      "gender": "M",
+      "name": "The Lord Archbishop of York",
+      "partyId": 3,
+      "partyName": "Bishops",
+      "dateOfBirth": "1949-06-10"
+    },
+    {
+      "memberId": 57,
+      "gender": "M",
+      "name": "Lord Young of Cookham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1941-07-16"
+    },
+    {
+      "memberId": 1754,
+      "gender": "M",
+      "name": "Lord Young of Graffham",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1932-02-27"
+    },
+    {
+      "memberId": 3696,
+      "gender": "F",
+      "name": "Baroness Young of Hornsey",
+      "partyId": 6,
+      "partyName": "Crossbench",
+      "dateOfBirth": "1951-06-01"
+    },
+    {
+      "memberId": 3702,
+      "gender": "M",
+      "name": "Lord Young of Norwood Green",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1942-04-16"
+    },
+    {
+      "memberId": 1755,
+      "gender": "F",
+      "name": "Baroness Young of Old Scone",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1948-04-08"
+    },
+    {
+      "memberId": 4169,
+      "gender": "M",
+      "name": "Viscount Younger of Leckie",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1955-11-11"
+    }
+  ]
+}

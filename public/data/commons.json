@@ -1291,6 +1291,16 @@
       "constituencyName": "Coventry South"
     },
     {
+      "memberId": 4698,
+      "gender": "F",
+      "name": "Janet Daby",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": null,
+      "constituencyId": 3575,
+      "constituencyName": "Lewisham East"
+    },
+    {
       "memberId": 4056,
       "gender": "M",
       "name": "Nic Dakin",
