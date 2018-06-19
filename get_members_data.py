@@ -4,8 +4,6 @@ import logging
 import requests
 
 
-# Uses mnis to fetch data about all MPs and saves it to a file as JSON.
-
 JSON_DIR = './public/data'
 
 FILEPATHS = {
@@ -284,7 +282,6 @@ def get_parties(house):
             # '283': { 'name': 'Lord Speaker', },
         }
 
-
     bands_template = get_bands_template()
 
     # Inflate the parties' bands dict swith empty bands:
@@ -331,7 +328,8 @@ def get_bands():
         [20, 29],
     ]
 
-    Note the final lower band (30, here) is not used.
+    Note the final lower band (30, here) is not used; it is just 1 higher
+    than the upper limit for the previous band (29).
     """
 
     # bands_lower = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
@@ -350,8 +348,8 @@ def get_bands():
 
 if __name__ == "__main__":
 
-    # fetch_lords_data()
+    fetch_commons_data()
 
-    # fetch_commons_data()
-    #
+    fetch_lords_data()
+
     create_ages_file()

@@ -2980,8 +2980,8 @@
       "memberId": 1980,
       "gender": "M",
       "name": "Lord Inglewood",
-      "partyId": 4,
-      "partyName": "Conservative",
+      "partyId": 49,
+      "partyName": "Non-affiliated",
       "dateOfBirth": "1951-07-31"
     },
     {
@@ -3487,6 +3487,14 @@
       "partyId": 15,
       "partyName": "Labour",
       "dateOfBirth": "1947-06-14"
+    },
+    {
+      "memberId": 68,
+      "gender": "M",
+      "name": "Lord Lilley",
+      "partyId": null,
+      "partyName": "",
+      "dateOfBirth": "1943-08-23"
     },
     {
       "memberId": 4688,
@@ -4575,6 +4583,14 @@
       "partyId": 6,
       "partyName": "Crossbench",
       "dateOfBirth": "1937-01-21"
+    },
+    {
+      "memberId": 33,
+      "gender": "M",
+      "name": "Lord Pickles",
+      "partyId": null,
+      "partyName": "",
+      "dateOfBirth": "1952-04-20"
     },
     {
       "memberId": 4552,
