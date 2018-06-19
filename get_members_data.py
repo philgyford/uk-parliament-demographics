@@ -1,7 +1,6 @@
 import datetime
 import json
 import logging
-import mnis
 import requests
 
 
@@ -172,6 +171,7 @@ def create_ages_file():
 
     today = datetime.date.today()
 
+    bands = get_bands()
 
     for house in ['commons', 'lords',]:
         # Create the data about all members and each party.
@@ -195,31 +195,17 @@ def create_ages_file():
                 age = today.year - birthdate.year - \
                     ((today.month, today.day) < (birthdate.month, birthdate.day))
 
-                if age < 10:
-                    band = '0-9'
-                elif age < 20:
-                    band = '10-19'
-                elif age < 30:
-                    band = '20-29'
-                elif age < 40:
-                    band = '30-39'
-                elif age < 50:
-                    band = '40-49'
-                elif age < 60:
-                    band = '50-59'
-                elif age < 70:
-                    band = '60-69'
-                elif age < 80:
-                    band = '70-79'
-                elif age < 90:
-                    band = '80-89'
-                elif age < 100:
-                    band = '90-99'
-                elif age < 110:
-                    band = '100-109'
+                band = None
 
-                parties[house][party_id]['bands'][band] += 1
-                all_members[house][band] += 1
+                # Find which band, e.g. ages 20-29, that this age falls in.
+                for lower_upper in bands:
+                    if age >= lower_upper[0] and age <= lower_upper[1]:
+                        band = '{}-{}'.format(lower_upper[0], lower_upper[1])
+                        break
+
+                if band is not None:
+                    parties[house][party_id]['bands'][band] += 1
+                    all_members[house][band] += 1
 
     # Also get the UK population data.
     with open(FILEPATHS['uk'], 'r') as f:
@@ -311,22 +297,55 @@ def get_parties(house):
 def get_bands_template():
     """
     Returns an empty dict we'll make copies of and populate with data:
-    """
 
-    return {
+    {
         '0-9': 0,
         '10-19': 0,
         '20-29': 0,
-        '30-39': 0,
-        '40-49': 0,
-        '50-59': 0,
-        '60-69': 0,
-        '70-79': 0,
-        '80-89': 0,
-        '90-99': 0,
-        '100-109': 0,
+        ...
     }
+    """
+    template = {}
 
+    bands = get_bands()
+
+    for band in bands:
+        key = '{}-{}'.format(band[0], band[1])
+        template[key] = 0
+
+    return template
+
+
+def get_bands():
+    """
+    Returns a list of lists.
+    Each inner list has two ints, the lower and upper range of an age band.
+
+    e.g. if bands_lower = [0, 10, 20, 30]
+
+    then this returns:
+
+    [
+        [0, 9],
+        [10, 19],
+        [20, 29],
+    ]
+
+    Note the final lower band (30, here) is not used.
+    """
+
+    # bands_lower = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
+    bands_lower = [18, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110,]
+
+    bands = []
+
+    for idx, lower in enumerate(bands_lower):
+        if idx < len(bands_lower) - 1:
+            upper = bands_lower[idx+1] - 1
+
+            bands.append([lower, upper])
+
+    return bands
 
 
 if __name__ == "__main__":
