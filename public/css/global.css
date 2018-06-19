@@ -1,3 +1,6 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 .container {
   max-width: 800px;
 
@@ -13,30 +16,20 @@
 }
 
 .pop-chart {
-  border: 1px solid #ccc;
   height: 400px;
-}
-
-.chart__inner {
-  border: 1px solid #dcc;
 }
 
 
 .chart__bar {
   shape-rendering: crispEdges;
-}
-.chart__bar--left {
-  fill: #669;
-}
-.chart__bar--right {
-  fill: #966;
+  fill: #000;
 }
 
 .axis line,
 .axis path {
   shape-rendering: crispEdges;
   fill: transparent;
-  stroke: #555;
+  stroke: #ccc;
 }
 .axis text {
   font-size: 11px;

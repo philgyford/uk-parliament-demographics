@@ -6,7 +6,7 @@
 
     // Can be changed using the chart.margin() method.
     // Note extra 'middle', which is space in the center for the y-axis labels.
-    var margin = {top: 0, right: 0, bottom: 20, left: 0, middle: 28};
+    var margin = {top: 0, right: 10, bottom: 20, left: 10, middle: 28};
 
     // Can (and should) be changed using the chart.data() method.
     // This will be replaced by any data passed to the chart.data() method:
