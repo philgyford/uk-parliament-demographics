@@ -20,7 +20,7 @@ body {
 }
 
 .grid line {
-  stroke: #ccc;
+  stroke: #eee;
   shape-rendering: crispEdges;
 }
 .grid path {
