@@ -14,16 +14,29 @@
 </head>
 <body>
 
-  <form class="pop-form">
-    <p class="col">
-      <select class="choices-left"></select>
-    </p>
-    <p class="col">
-      <select class="choices-right"></select>
-    </p>
-  </form>
+  <main class="container">
 
-  <div class="pop-chart"></div>
+    <form>
+      <div class="row">
+        <p class="col">
+          <select class="choices-left"></select>
+        </p>
+        <p class="col">
+          <select class="choices-right"></select>
+        </p>
+      </div>
+    </form>
+
+    <section>
+      <h2>Ages</h2>
+      <div class="row">
+        <span class="col title-left"></span>
+        <span class="col title-right"></span>
+      </div>
+
+      <div class="pop-chart"></div>
+    </section>
+  </main>
 
   <script src="js/d3.min.js"></script>
   <script src="js/pop.chart.js"></script>

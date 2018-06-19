@@ -86,14 +86,23 @@
             .text(function(d) { return d[1]; });
       });
 
+      // Put the data into our ages object, for use by the chart.
       for(var key in data) {
 
         if (key == 'uk') {
-          ages[key] = data[key];
+          ages[key] = {
+            'name': data[key]['name'],
+            'bands': data[key]['bands']
+          };
 
         } else {
           data[key].forEach(function(d, i) {
-            ages[key + '-' + d['id']] = d['bands'];
+            var nam
+            // So it'll be like 'commons-4':
+            ages[key + '-' + d['id']] = {
+              'name': d['name'],
+              'bands': d['bands']
+            };
           });
         };
 
@@ -120,17 +129,21 @@
     /**
      * Create or update the chart.
      * `left` and `right` are keys used in the object in ages.json.
+     * e.g. 'commonsall' or 'uk'.
      * One will be displayed on each side of the chart.
      */
     function renderAgesChart(left, right) {
       var data = [];
 
-      for (var band in ages[left]) {
+      for (var band in ages[left]['bands']) {
         // Assuming both left and right have the same bands.
+        // So each element will be like:
+        // {'band': '18-19', 'left': 4, 'right': 12}
+
         data.push({
           'band': band,
-          'left': ages[left][band],
-          'right': ages[right][band],
+          'left': ages[left]['bands'][band],
+          'right': ages[right]['bands'][band],
         })
       };
 
@@ -144,6 +157,28 @@
         d3.select(chartSelector).call(chart);
       };
 
+
+      // Set chart titles.
+
+      var leftTitle = ages[left]['name'];
+      var rightTitle = ages[right]['name'];
+
+      if (left.indexOf('commons') === 0) {
+        leftTitle = 'House of Commons: ' + leftTitle;
+      } else if (left.indexOf('lords') === 0) {
+        leftTitle = 'House of Lords: ' + leftTitle;
+      };
+      if (right.indexOf('commons') === 0) {
+        rightTitle = 'House of Commons: ' + rightTitle;
+      } else if (right.indexOf('lords') === 0) {
+        rightTitle = 'House of Lords: ' + rightTitle;
+      };
+
+      d3.select('.title-left').text(leftTitle);
+      d3.select('.title-right').text(rightTitle);
+
+      
+      // So we know what's currently showing.
       current = {
         'left': left,
         'right': right

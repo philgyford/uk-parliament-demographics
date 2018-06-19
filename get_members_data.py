@@ -227,7 +227,7 @@ def create_ages_file():
 
     # Combine and save all of the above.
     ages_data = {
-        'uk': uk_data['bands'],
+        'uk': {'name': 'UK adult population', 'bands': uk_data['bands']},
         'commons': commons,
         'lords': lords,
     }
@@ -265,10 +265,10 @@ def get_parties(house):
     if house == 'commons':
         parties = {
             '4':  { 'name': 'Conservative', },
-            '7':  { 'name': 'Democratic Unionist Party', },
+            '7':  { 'name': 'DUP', },
             '15': { 'name': 'Labour', },
             '17': { 'name': 'Liberal Democrat', },
-            '29': { 'name': 'Scottish National Party', },
+            '29': { 'name': 'SNP', },
 
             # '8':  { 'name': 'Independent', },
             # '44': { 'name': 'Green Party', },

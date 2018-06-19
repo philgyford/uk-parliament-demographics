@@ -1,6 +1,19 @@
+.container {
+  max-width: 800px;
+
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.col {
+  width: 50%;
+  text-align: center;
+}
+
 .pop-chart {
   border: 1px solid #ccc;
-  max-width: 800px;
   height: 400px;
 }
 
