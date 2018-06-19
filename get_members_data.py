@@ -209,13 +209,27 @@ def create_ages_file():
     with open(FILEPATHS['uk'], 'r') as f:
         uk_data = json.load(f)
 
+    # Convert our dicts of dicts into lists of dicts:
+    commons = [{'id': k, **v} for k,v in parties['commons'].items()]
+    lords = [{'id': k, **v} for k,v in parties['lords'].items()]
+
+    # Prepend the data for ALL members:
+    commons.insert(0, {
+        'id': 'all',
+        'name': 'All MPs',
+        'bands': all_members['commons'],
+    })
+    lords.insert(0, {
+        'id': 'all',
+        'name': 'All members',
+        'bands': all_members['lords'],
+    })
+
     # Combine and save all of the above.
     ages_data = {
         'uk': uk_data['bands'],
-        'commonsAll': all_members['commons'],
-        'commonsParties': parties['commons'],
-        'lordsAll': all_members['lords'],
-        'lordsParties': parties['lords'],
+        'commons': commons,
+        'lords': lords,
     }
 
     with open(FILEPATHS['ages'], 'w') as f:
@@ -348,8 +362,8 @@ def get_bands():
 
 if __name__ == "__main__":
 
-    fetch_commons_data()
-
-    fetch_lords_data()
+    # fetch_commons_data()
+    #
+    # fetch_lords_data()
 
     create_ages_file()
