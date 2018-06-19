@@ -19,6 +19,14 @@ body {
   height: 400px;
 }
 
+.grid line {
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  display: none;
+}
+
 
 .chart__bar {
   shape-rendering: crispEdges;

@@ -40,6 +40,9 @@
     var percentageL = function(d) { return d / totalL; };
     var percentageR = function(d) { return d / totalR; };
 
+    var makeLeftGridlines = function() { return d3.axisBottom(xScaleL); }
+    var makeRightGridlines = function() { return d3.axisBottom(xScaleR); }
+
     function chart(selection) {
       selection.each(function() {
 
@@ -49,10 +52,6 @@
 
         var svg = container.append('svg');
         var inner = svg.append('g').classed('chart__inner', true);
-
-        // Groups that will contain the bars on each side.
-        var leftGroup = inner.append('g');
-        var rightGroup = inner.append('g');
 
         // Set up axes.
         inner.append("g")
@@ -67,6 +66,15 @@
         inner.append("g")
               .classed("axis axis--y axis--right", true);
 
+        inner.append('g')
+              .classed('grid grid--left', true);
+
+        inner.append('g')
+              .classed('grid grid--right', true);
+
+        // Groups that will contain the bars on each side.
+        var leftGroup = inner.append('g');
+        var rightGroup = inner.append('g');
 
         // Need to be in a scope available to all the render methods.
         var chartW,
@@ -164,6 +172,21 @@
           svg.select('.axis--y.axis--right')
               .attr('transform', translation(xRight0, 0))
               .call(yAxisR);
+
+          svg.select('.grid--left')
+                .attr('transform', translation(0, chartH))
+                .call(makeLeftGridlines()
+                      .tickSize(-chartH)
+                      .tickFormat('')
+                );
+
+          svg.select('.grid--right')
+                .attr('transform', translation(xRight0, chartH))
+                .call(makeRightGridlines()
+                      .tickSize(-chartH)
+                      .tickFormat('')
+                );
+
         };
 
         function renderBars() {
