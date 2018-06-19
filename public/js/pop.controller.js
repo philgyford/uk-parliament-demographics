@@ -15,7 +15,7 @@
     // Load the data and render the initial chart.
     d3.json('data/ages.json').then(function(data) {
       ages = data;
-      renderChart('uk', 'mps');
+      renderChart('lordsAll', 'commonsAll');
     });
 
 
