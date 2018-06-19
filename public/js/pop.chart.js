@@ -31,6 +31,11 @@
                     .tickSize(0)
                     .tickFormat('');
 
+    // Will be the total counts for each side.
+    // Need to be in the same scope as percentageL/R.
+    var totalL;
+    var totalR;
+
     // Functions for getting a value as a percentage of the sides' total.
     var percentageL = function(d) { return d / totalL; };
     var percentageR = function(d) { return d / totalR; };
@@ -69,9 +74,6 @@
             sideW,
             xLeft0,
             xRight0;
-        // The total counts for each side.
-        var totalL;
-        var totalR;
 
         /**
          * Sets scales/domains, renders axes and chart contents.

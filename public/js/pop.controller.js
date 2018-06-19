@@ -7,15 +7,15 @@
     var chartSelector = '.pop-chart';
 
     // Will be the contents of the JSON file.
-    var ages;
+    var ages = {};
 
     // Will be the chart function.
     var chart;
 
     // Initial chart display.
     var start = {
-      'left': 'commonsAll',
-      'right': 'lordsAll'
+      'left': 'commons-all',
+      'right': 'lords-all'
     };
 
     // Will look like start once we've rendered the chart:
@@ -24,7 +24,7 @@
     // Load the data and render the initial chart.
     d3.json('data/ages.json').then(function(data) {
       processAgesData(data);
-      renderChart(start['left'], start['right']);
+      renderAgesChart(start['left'], start['right']);
     });
 
 
@@ -32,26 +32,72 @@
      * Put the data from ages.json into a format useful for the interface.
      */
     function processAgesData(data) {
-      var options = [
-        ['uk', 'UK population'],
-        ['commonsAll', 'All MPs'],
-        ['lordsAll', 'All Lords'],
+      // Will be all the optgroups and their options:
+      var optgroups = [
+        {
+          'name': 'United Kingdom',
+          'options': [
+            ['uk', 'Adult population']
+          ]
+        }
       ];
+
+      // Optgroups with empty options:
+      var commonsOptgroup = {
+        'name': 'House of Commons',
+        'options': []
+      };
+      var lordsOptgroup = {
+        'name': 'House of Lords',
+        'options': []
+      };
+
+      // Populate the optgroups' options:
+      data['commons'].forEach(function(d, i) {
+        commonsOptgroup['options'].push(
+          [ 'commons-'+d['id'], d['name'] ]
+        );
+      });
+      data['lords'].forEach(function(d, i) {
+        lordsOptgroup['options'].push(
+          [ 'lords-'+d['id'], d['name'] ]
+        );
+      });
+
+      // Add the two optgroups into the full list:
+      optgroups = optgroups.concat(commonsOptgroup);
+      optgroups = optgroups.concat(lordsOptgroup);
 
       // Add options to the two select fields.
       ['left', 'right'].forEach(function(side, i) {
         d3.select('.choices-'+side)
             .on('change', onAgesChange)
-            .selectAll('option')
-              .data(options)
-              .enter()
-              .append('option')
-                .attr('value', function(d) { return d[0]; })
-                .property('selected', function(d) { return d[0] === start[side]; })
-                .text(function(d) { return d[1]; });
+          .selectAll('optgroup')
+            .data(optgroups)
+            .enter()
+          .append('optgroup')
+            .attr('label', function(d) { return d.name; })
+          .selectAll('option')
+            .data(function(d) { return d.options; })
+            .enter()
+          .append('option')
+            .attr('value', function(d) { return d[0]; })
+            .property('selected', function(d) { return d[0] === start[side]; })
+            .text(function(d) { return d[1]; });
       });
 
-      ages = data;
+      for(var key in data) {
+
+        if (key == 'uk') {
+          ages[key] = data[key];
+
+        } else {
+          data[key].forEach(function(d, i) {
+            ages[key + '-' + d['id']] = d['bands'];
+          });
+        };
+
+      };
 
     };
 
@@ -65,9 +111,9 @@
       var val = d3.select(this).property('value');
 
       if (clss == 'choices-left') {
-        renderChart(val, current['right']);
+        renderAgesChart(val, current['right']);
       } else {
-        renderChart(current['left'], val);
+        renderAgesChart(current['left'], val);
       };
     };
 
@@ -76,7 +122,7 @@
      * `left` and `right` are keys used in the object in ages.json.
      * One will be displayed on each side of the chart.
      */
-    function renderChart(left, right) {
+    function renderAgesChart(left, right) {
       var data = [];
 
       for (var band in ages[left]) {
