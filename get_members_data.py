@@ -362,8 +362,8 @@ def get_bands():
 
 if __name__ == "__main__":
 
-    # fetch_commons_data()
-    #
-    # fetch_lords_data()
+    fetch_commons_data()
+
+    fetch_lords_data()
 
     create_ages_file()
