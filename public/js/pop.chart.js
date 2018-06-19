@@ -31,29 +31,16 @@
                     .tickSize(0)
                     .tickFormat('');
 
+    // Functions for getting a value as a percentage of the sides' total.
+    var percentageL = function(d) { return d / totalL; };
+    var percentageR = function(d) { return d / totalR; };
+
     function chart(selection) {
       selection.each(function() {
 
+        // Create the elements for the chart.
+
         var container = d3.select(this);
-
-        // The total counts for each side.
-        var totalL = d3.sum(data, function(d) { return d.left; }),
-            totalR = d3.sum(data, function(d) { return d.right; }),
-            // Functions for getting a value as a percentage of the sides' total.
-            percentageL = function(d) { return d / totalL; },
-            percentageR = function(d) { return d / totalR; };
-
-        // The highest x value on either side:
-        var maxXValue = Math.max(
-          d3.max(data, function(d) { return percentageL(d.left); }),
-          d3.max(data, function(d) { return percentageR(d.right); })
-        );
-
-        // Set up scale domains.
-        xScale.domain([0, maxXValue]);
-        xScaleL.domain([0, maxXValue]);
-        xScaleR.domain([0, maxXValue]);
-        yScale.domain(data.map(function(d) { return d.band; }));
 
         var svg = container.append('svg');
         var inner = svg.append('g').classed('chart__inner', true);
@@ -75,20 +62,48 @@
         inner.append("g")
               .classed("axis axis--y axis--right", true);
 
+
         // Need to be in a scope available to all the render methods.
         var chartW,
             chartH,
             sideW,
             xLeft0,
             xRight0;
+        // The total counts for each side.
+        var totalL;
+        var totalR;
 
         /**
-         * Draws the whole chart. For the first time or on window resize.
+         * Sets scales/domains, renders axes and chart contents.
+         * For the first time or on window resize.
          */
         render = function() {
+          setDomains();
           renderScales();
           renderAxes();
           renderBars();
+        };
+
+        /**
+         * Set the values for the domains based on the current data.
+         */
+        function setDomains() {
+          // Total values of all data on each side.
+          // Used to calculage the percentages.
+          totalL = d3.sum(data, function(d) { return d.left; });
+          totalR = d3.sum(data, function(d) { return d.right; });
+
+          // The highest x value on either side:
+          var maxXValue = Math.max(
+            d3.max(data, function(d) { return percentageL(d.left); }),
+            d3.max(data, function(d) { return percentageR(d.right); })
+          );
+
+          // Set up scale domains.
+          xScale.domain([0, maxXValue]);
+          xScaleL.domain([0, maxXValue]);
+          xScaleR.domain([0, maxXValue]);
+          yScale.domain(data.map(function(d) { return d.band; }));
         };
 
         /**

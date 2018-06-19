@@ -4,7 +4,7 @@
 
   pop.controller = function() {
 
-    var chartSelector = '.parl-chart';
+    var chartSelector = '.pop-chart';
 
     // Will be the contents of the JSON file.
     var ages;
@@ -12,12 +12,64 @@
     // Will be the chart function.
     var chart;
 
+    // Initial chart display.
+    var start = {
+      'left': 'commonsAll',
+      'right': 'lordsAll'
+    };
+
+    // Will look like start once we've rendered the chart:
+    var current = {};
+
     // Load the data and render the initial chart.
     d3.json('data/ages.json').then(function(data) {
-      ages = data;
-      renderChart('lordsAll', 'commonsAll');
+      processAgesData(data);
+      renderChart(start['left'], start['right']);
     });
 
+
+    /**
+     * Put the data from ages.json into a format useful for the interface.
+     */
+    function processAgesData(data) {
+      var options = [
+        ['uk', 'UK population'],
+        ['commonsAll', 'All MPs'],
+        ['lordsAll', 'All Lords'],
+      ];
+
+      // Add options to the two select fields.
+      ['left', 'right'].forEach(function(side, i) {
+        d3.select('.choices-'+side)
+            .on('change', onAgesChange)
+            .selectAll('option')
+              .data(options)
+              .enter()
+              .append('option')
+                .attr('value', function(d) { return d[0]; })
+                .property('selected', function(d) { return d[0] === start[side]; })
+                .text(function(d) { return d[1]; });
+      });
+
+      ages = data;
+
+    };
+
+    /**
+     * Looks at current values of the select fields and updates the chart.
+     */
+    function onAgesChange() {
+      // Get which side and what chart to display:
+      var select = d3.select(this);
+      var clss = select.attr('class');
+      var val = d3.select(this).property('value');
+
+      if (clss == 'choices-left') {
+        renderChart(val, current['right']);
+      } else {
+        renderChart(current['left'], val);
+      };
+    };
 
     /**
      * Create or update the chart.
@@ -46,6 +98,10 @@
         d3.select(chartSelector).call(chart);
       };
 
+      current = {
+        'left': left,
+        'right': right
+      };
     };
 
   };
