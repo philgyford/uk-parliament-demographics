@@ -4,13 +4,15 @@
 
   pop.controller = function() {
 
-    var chartSelector = '.pop-chart';
+    var agesChartSelector = '.chart--ages';
+    var gendersChartSelector = '.chart--genders';
 
-    // Will be the contents of the JSON file.
-    var ages = {};
+    // Will be data about genders/ages for each kind of thing we're showing.
+    var chartData = {};
 
-    // Will be the chart function.
-    var chart;
+    // Will be the chart functions.
+    var agesChart;
+    var gendersChart;
 
     // Initial chart display.
     var start = {
@@ -23,15 +25,15 @@
 
     // Load the data and render the initial chart.
     d3.json('data/chart.json').then(function(data) {
-      processAgesData(data);
-      renderAgesChart(start['left'], start['right']);
+      createSelects(data);
+      processChartData(data);
+      updateCharts(start['left'], start['right']);
     });
 
-
     /**
-     * Put the data from chart.json into a format useful for the interface.
+     * Create the left and right select input fields.
      */
-    function processAgesData(data) {
+    function createSelects(data) {
       // Will be all the optgroups and their options:
       var optgroups = [
         {
@@ -71,7 +73,7 @@
       // Add options to the two select fields.
       ['left', 'right'].forEach(function(side, i) {
         d3.select('.choices-'+side)
-            .on('change', onAgesChange)
+            .on('change', onSelectChange)
           .selectAll('optgroup')
             .data(optgroups)
             .enter()
@@ -85,83 +87,72 @@
             .property('selected', function(d) { return d[0] === start[side]; })
             .text(function(d) { return d[1]; });
       });
+    };
 
-      // Put the data into our ages object, for use by the chart.
+    /**
+     * Put the data from chart.json into a format useful for the interface.
+     * i.e. keyed by the values used in the select fields.
+     * Populates chartData.
+     */
+    function processChartData(data) {
+
       for(var key in data) {
-
         if (key == 'uk') {
-          ages[key] = {
+          chartData[key] = {
             'name': data[key]['name'],
+            'genders': data[key]['genders'],
             'ages': data[key]['ages']
           };
 
         } else {
           data[key].forEach(function(d, i) {
-            var nam
             // So it'll be like 'commons-4':
-            ages[key + '-' + d['id']] = {
+            chartData[key + '-' + d['id']] = {
               'name': d['name'],
+              'genders': d['genders'],
               'ages': d['ages']
             };
           });
         };
-
       };
-
     };
 
     /**
      * Looks at current values of the select fields and updates the chart.
      */
-    function onAgesChange() {
+    function onSelectChange() {
       // Get which side and what chart to display:
       var select = d3.select(this);
       var clss = select.attr('class');
       var val = d3.select(this).property('value');
 
       if (clss == 'choices-left') {
-        renderAgesChart(val, current['right']);
+        updateCharts(val, current['right']);
       } else {
-        renderAgesChart(current['left'], val);
+        updateCharts(current['left'], val);
       };
     };
 
     /**
-     * Create or update the chart.
-     * `left` and `right` are keys used in the object in chart.json.
-     * e.g. 'commonsall' or 'uk'.
-     * One will be displayed on each side of the chart.
+     * When the page is loaded, or when we choose something new for left/right,
+     * do all the things that need to be done.
      */
-    function renderAgesChart(left, right) {
-      var data = [];
+    function updateCharts(left, right) {
 
-      for (var band in ages[left]['ages']) {
-        // Assuming both left and right have the same age bands.
-        // So each element will be like:
-        // {'band': '18-19', 'left': 4, 'right': 12}
+      setLeftRightTitles(left, right);
+      renderAgesChart(left, right);
+      renderGendersChart(left, right);
 
-        data.push({
-          'band': band,
-          'left': ages[left]['ages'][band],
-          'right': ages[right]['ages'][band],
-        })
+      // So we know what's currently showing.
+      current = {
+        'left': left,
+        'right': right
       };
+    };
 
-      if (typeof chart === 'function') {
-        // The chart already exists, so update with new data.
-        chart.data(data);
-
-      } else {
-        // Chart doesn't exist yet, so create it.
-        chart = pop.populationPyramidChart().data(data);
-        d3.select(chartSelector).call(chart);
-      };
-
-
-      // Set chart titles.
-
-      var leftTitle = ages[left]['name'];
-      var rightTitle = ages[right]['name'];
+    function setLeftRightTitles(left, right) {
+      var leftTitle = chartData[left]['name'];
+      var rightTitle = chartData[right]['name'];
 
       if (left.indexOf('commons') === 0) {
         leftTitle = 'House of Commons: ' + leftTitle;
@@ -176,12 +167,62 @@
 
       d3.select('.title-left').text(leftTitle);
       d3.select('.title-right').text(rightTitle);
+    };
 
+    /**
+     * Create or update the chart.
+     * `left` and `right` are keys used in the object in chart.json.
+     * e.g. 'commonsall' or 'uk'.
+     * One will be displayed on each side of the chart.
+     */
+    function renderAgesChart(left, right) {
+      var data = [];
 
-      // So we know what's currently showing.
-      current = {
-        'left': left,
-        'right': right
+      for (var band in chartData[left]['ages']) {
+        // Assuming both left and right have the same age bands.
+        // So each element will be like:
+        // {'band': '18-19', 'left': 4, 'right': 12}
+
+        data.push({
+          'band': band,
+          'left': chartData[left]['ages'][band],
+          'right': chartData[right]['ages'][band],
+        })
+      };
+
+      if (typeof agesChart === 'function') {
+        // The chart already exists, so update with new data.
+        agesChart.data(data);
+
+      } else {
+        // Chart doesn't exist yet, so create it.
+        agesChart = pop.pyramidChart().data(data);
+        d3.select(agesChartSelector).call(agesChart);
+      };
+    };
+
+    function renderGendersChart(left, right) {
+      var data = [
+        {
+          'band': 'Male',
+          'left': chartData[left]['genders']['m'],
+          'right': chartData[right]['genders']['m']
+        },
+        {
+          'band': 'Female',
+          'left': chartData[left]['genders']['f'],
+          'right': chartData[right]['genders']['f']
+        }
+      ];
+
+      if (typeof gendersChart === 'function') {
+        // The chart already exists, so update with new data.
+        gendersChart.data(data);
+
+      } else {
+        // Chart doesn't exist yet, so create it.
+        gendersChart = pop.pyramidChart().data(data);
+        d3.select(gendersChartSelector).call(gendersChart);
       };
     };
 

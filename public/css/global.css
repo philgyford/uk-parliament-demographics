@@ -3,8 +3,15 @@ body {
 }
 .container {
   max-width: 800px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
+
+h2 {
+  text-align: center;
+}
+
+
 .row {
   display: flex;
   flex-direction: row;
@@ -15,7 +22,11 @@ body {
   text-align: center;
 }
 
-.pop-chart {
+.chart--genders {
+  height: 100px;
+}
+
+.chart--ages {
   height: 400px;
 }
 

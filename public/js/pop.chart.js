@@ -2,7 +2,7 @@
   'use strict';
   window.pop = window.pop || {};
 
-  pop.populationPyramidChart = function(selection) {
+  pop.pyramidChart = function(selection) {
 
     // Can be changed using the chart.margin() method.
     // Note extra 'middle', which is space in the center for the y-axis labels.
