@@ -31,6 +31,15 @@
                     .tickSize(0)
                     .tickFormat('');
 
+    var tooltipFormat = function(value, percent) {
+      var numFormat = d3.format(',');
+      var percentFormat = d3.format(".1f");
+      return '<strong>' + numFormat(value) + '</strong> (' + percentFormat(percent) + '%)';
+    };
+    var tooltip = d3.select('body')
+                      .append('div')
+                      .classed('chart__tooltip', true);
+
     // Will be the total counts for each side.
     // Need to be in the same scope as percentageL/R.
     var totalL;
@@ -81,7 +90,29 @@
             chartH,
             sideW,
             xLeft0,
-            xRight0;
+            xRight0,
+            // What happens when cursor moves into, over or out of a bar.
+            mouseOver = function(side, d) {
+              var value,
+                  percent;
+              if (side == 'left') {
+                value = d.left;
+                percent = percentageL(value) * 100;
+              } else {
+                value = d.right;
+                percent = percentageR(value) * 100;
+              };
+              tooltip.html( tooltipFormat(value, percent) );
+              tooltip.style('visibility', 'visible');
+            },
+            mouseMove = function(){
+                tooltip
+                    .style('top', (event.pageY+10)+'px')
+                    .style('left',(event.pageX+10)+'px');
+            },
+            mouseOut = function(){
+                tooltip.style('visibility', 'hidden');
+            };
 
         /**
          * Sets scales/domains, renders axes and chart contents.
@@ -210,20 +241,23 @@
                                .data(data);
 
           barsL.enter()
-                .append('rect')
-                .attr('class', 'chart__bar chart__bar--left')
-                .attr('x', barX)
-                .attr('y', barY)
-                .attr('width', barLW)
-                .attr('height', barH);
+            .append('rect')
+              .attr('class', 'chart__bar chart__bar--left')
+              .attr('x', barX)
+              .attr('y', barY)
+              .attr('width', barLW)
+              .attr('height', barH)
+              .on('mouseover', function(d) { return mouseOver('left', d); })
+              .on('mousemove', mouseMove)
+              .on('mouseout', mouseOut);
 
           barsL.exit().remove();
 
           barsL.transition()
-                .attr('x', barX)
-                .attr('y', barY)
-                .attr('width', barLW)
-                .attr('height', barH);
+              .attr('x', barX)
+              .attr('y', barY)
+              .attr('width', barLW)
+              .attr('height', barH);
 
           // Now the same for the bars on the right.
 
@@ -231,20 +265,23 @@
                                 .data(data)
 
           barsR.enter()
-                .append('rect')
-                .attr('class', 'chart__bar chart__bar--right')
-                .attr('x', barX)
-                .attr('y', barY)
-                .attr('width', barRW)
-                .attr('height', barH);
+            .append('rect')
+              .attr('class', 'chart__bar chart__bar--right')
+              .attr('x', barX)
+              .attr('y', barY)
+              .attr('width', barRW)
+              .attr('height', barH)
+              .on('mouseover', function(d) { return mouseOver('right', d); })
+              .on('mousemove', mouseMove)
+              .on('mouseout', mouseOut);
 
           barsR.exit().remove();
 
           barsR.transition()
-                .attr('x', barX)
-                .attr('y', barY)
-                .attr('width', barRW)
-                .attr('height', barH);
+              .attr('x', barX)
+              .attr('y', barY)
+              .attr('width', barRW)
+              .attr('height', barH);
 
         };
 

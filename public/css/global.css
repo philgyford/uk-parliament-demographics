@@ -27,6 +27,13 @@ body {
   display: none;
 }
 
+.chart__tooltip {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5em 10px;
+}
+
 
 .chart__bar {
   shape-rendering: crispEdges;
