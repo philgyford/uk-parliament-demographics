@@ -165,8 +165,8 @@
         rightTitle = 'House of Lords: ' + rightTitle;
       };
 
-      d3.select('.js-title-left').text(leftTitle);
-      d3.select('.js-title-right').text(rightTitle);
+      d3.selectAll('.js-title-left').text(leftTitle);
+      d3.selectAll('.js-title-right').text(rightTitle);
     };
 
     /**

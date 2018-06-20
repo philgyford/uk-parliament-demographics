@@ -21,9 +21,11 @@
         xScaleR = d3.scaleLinear(),
         yScale = d3.scaleBand(),
         xAxisL = d3.axisBottom(xScaleL)
-                    .tickFormat(d3.format('.0%')),
+                    .tickFormat(d3.format('.0%'))
+                    .ticks(8),
         xAxisR = d3.axisBottom(xScaleR)
-                    .tickFormat(d3.format('.0%')),
+                    .tickFormat(d3.format('.0%'))
+                    .ticks(8),
         yAxisL = d3.axisRight(yScale)
                     .tickSize(0)
                     .tickPadding(margin.middle),

@@ -1,6 +1,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
+  line-height: 1.125rem;
 }
 .container {
   max-width: 700px;
@@ -32,18 +33,20 @@ select {
   height: 2rem;
 }
 
-h2 {
-  text-align: center;
-  font-weight: normal;
+.title {
+  font-weight: bold;
   font-size: 0.875rem;
   margin: 1em 0 1em 0;
   background: #eee;
   padding: 0.2em 10px 0.3em 10px;
 }
+.title--chart {
+  text-align: center;
+}
 
 .lr-titles {
-  font-weight: bold;
-  margin: 1em 0 2em 0;
+  margin: 1em 0 1em 0;
+  font-size: 0.875rem;
 }
 
 .row {
@@ -90,7 +93,6 @@ h2 {
   font-size: 0.75rem;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
-
 
 .chart__bar {
   shape-rendering: crispEdges;
