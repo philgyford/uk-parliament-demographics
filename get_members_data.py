@@ -152,11 +152,18 @@ def create_chart_file():
     logger.info("Creating file of age bands at {}".format(FILEPATHS['chart']))
 
     agebands_template = get_agebands_template()
+    genders_template = get_genders_template()
 
     # Where we'll store data about ages for members in all parties:
     all_members = {
-        'commons': agebands_template.copy(),
-        'lords': agebands_template.copy(),
+        'commons': {
+            'ages': agebands_template.copy(),
+            'genders': genders_template.copy(),
+        },
+        'lords': {
+            'ages': agebands_template.copy(),
+            'genders': genders_template.copy(),
+        },
     }
 
     # Where we'll store data about ages for members in individual parties:
@@ -177,33 +184,35 @@ def create_chart_file():
             data = json.load(f)
 
             for m in data['members']:
-
-                if m['dateOfBirth'] is None:
-                    # Can't calculate their age.
-                    continue
-
                 party_id = str(m['partyId'])
 
                 if party_id not in parties[house]:
                     # We skip a few parties with few members
                     continue
 
-                birthdate = datetime.datetime.strptime(
-                                            m['dateOfBirth'], '%Y-%m-%d').date()
-                age = today.year - birthdate.year - \
-                    ((today.month, today.day) < (birthdate.month, birthdate.day))
+                if m['gender'] is not None:
+                    gender = m['gender'].lower()
+                    parties[house][party_id]['genders'][ gender ] += 1
+                    all_members[house]['genders'][gender] += 1
 
-                ageband = None
+                if m['dateOfBirth'] is not None:
 
-                # Find which ageband, e.g. ages 20-29, that this age falls in.
-                for lower_upper in agebands:
-                    if age >= lower_upper[0] and age <= lower_upper[1]:
-                        ageband = '{}-{}'.format(lower_upper[0], lower_upper[1])
-                        break
+                    birthdate = datetime.datetime.strptime(
+                                                m['dateOfBirth'], '%Y-%m-%d').date()
+                    age = today.year - birthdate.year - \
+                        ((today.month, today.day) < (birthdate.month, birthdate.day))
 
-                if ageband is not None:
-                    parties[house][party_id]['ages'][ageband] += 1
-                    all_members[house][ageband] += 1
+                    ageband = None
+
+                    # Find which ageband, e.g. ages 20-29, that this age falls in.
+                    for lower_upper in agebands:
+                        if age >= lower_upper[0] and age <= lower_upper[1]:
+                            ageband = '{}-{}'.format(lower_upper[0], lower_upper[1])
+                            break
+
+                    if ageband is not None:
+                        parties[house][party_id]['ages'][ageband] += 1
+                        all_members[house]['ages'][ageband] += 1
 
     # Also get the UK population data.
     with open(FILEPATHS['uk'], 'r') as f:
@@ -217,18 +226,21 @@ def create_chart_file():
     commons.insert(0, {
         'id': 'all',
         'name': 'All MPs',
-        'ages': all_members['commons'],
+        'genders': all_members['commons']['genders'],
+        'ages': all_members['commons']['ages'],
     })
     lords.insert(0, {
         'id': 'all',
         'name': 'All members',
-        'ages': all_members['lords'],
+        'genders': all_members['lords']['genders'],
+        'ages': all_members['lords']['ages'],
     })
 
     # Combine and save all of the above.
     chart_data = {
         'uk': {
             'name': 'UK adult population',
+            'genders': uk_data['genders'],
             'ages': uk_data['ages'],
         },
         'commons': commons,
@@ -249,6 +261,10 @@ def get_parties(house):
     {
         '4': {
             'name': Conservative',
+            'genders': {
+                'f': 0,
+                'm': 0,
+            },
             'ages': {
                 '0-9': 0,
                 '10-19': 0,
@@ -300,12 +316,24 @@ def get_parties(house):
         }
 
     agebands_template = get_agebands_template()
+    genders_template = get_genders_template()
 
     # Inflate the parties' age bands dict swith empty age bands:
     for id, dct in parties.items():
+        parties[id]['genders'] = genders_template.copy()
         parties[id]['ages'] = agebands_template.copy()
 
     return parties
+
+
+def get_genders_template():
+    """
+    Returns an empty dict we'll make copies of and populate with data.
+    """
+    return {
+        'f': 0,
+        'm': 0,
+    }
 
 
 def get_agebands_template():

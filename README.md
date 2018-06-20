@@ -20,7 +20,7 @@ to create the JSON file used by the chart, `public/data/ages.json`.
 
 ## UK Data
 
-The data about UK population age bands, in `public/data/uk.json`, is based on
+The data about UK population age bands and genders, in `public/data/uk.json`, is based on
 mid-2016 figures from [this Office for National Statistics bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/bulletins/nationalpopulationprojections/2016basedstatisticalbulletin).
 
-Each band shows the number of people in the UK in that age band, rounded to the nearest 1000.
+Each band shows the number of people in the UK in that age band. Gender counts the number of people aged 18 or over (the ONS data counts male and female only).
