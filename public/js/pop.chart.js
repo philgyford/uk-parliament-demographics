@@ -36,9 +36,14 @@
       var percentFormat = d3.format(".1f");
       return '<strong>' + percentFormat(percent) + '%</strong> (' + numFormat(value) + ')';
     };
-    var tooltip = d3.select('body')
-                      .append('div')
-                      .classed('chart__tooltip', true);
+
+    var tooltip = d3.select('.chart__tooltip')
+
+    if (tooltip.empty()) {
+        tooltip = d3.select('body')
+                    .append('div')
+                    .classed('chart__tooltip', true);
+    };
 
     // Will be the total counts for each side.
     // Need to be in the same scope as percentageL/R.

@@ -4,8 +4,8 @@
 
   pop.controller = function() {
 
-    var agesChartSelector = '.chart--ages';
-    var gendersChartSelector = '.chart--genders';
+    var agesChartSelector = '.js-chart-ages';
+    var gendersChartSelector = '.js-chart-genders';
 
     // Will be data about genders/ages for each kind of thing we're showing.
     var chartData = {};
@@ -165,8 +165,8 @@
         rightTitle = 'House of Lords: ' + rightTitle;
       };
 
-      d3.select('.title-left').text(leftTitle);
-      d3.select('.title-right').text(rightTitle);
+      d3.select('.js-title-left').text(leftTitle);
+      d3.select('.js-title-right').text(rightTitle);
     };
 
     /**
