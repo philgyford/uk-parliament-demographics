@@ -34,7 +34,7 @@
     var tooltipFormat = function(value, percent) {
       var numFormat = d3.format(',');
       var percentFormat = d3.format(".1f");
-      return '<strong>' + numFormat(value) + '</strong> (' + percentFormat(percent) + '%)';
+      return '<strong>' + percentFormat(percent) + '%</strong> (' + numFormat(value) + ')';
     };
     var tooltip = d3.select('body')
                       .append('div')
