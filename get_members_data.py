@@ -222,11 +222,11 @@ def create_chart_file():
     lords.insert(0, {
         'id': 'all',
         'name': 'All members',
-        'bages': all_members['lords'],
+        'ages': all_members['lords'],
     })
 
     # Combine and save all of the above.
-    ages_data = {
+    chart_data = {
         'uk': {
             'name': 'UK adult population',
             'ages': uk_data['bands'],
@@ -236,7 +236,7 @@ def create_chart_file():
     }
 
     with open(FILEPATHS['chart'], 'w') as f:
-        json.dump(ages_data, f, indent=2, ensure_ascii=False)
+        json.dump(chart_data, f, indent=2, ensure_ascii=False)
 
 
 def get_parties(house):
