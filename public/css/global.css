@@ -9,6 +9,13 @@ body {
   margin-right: auto;
 }
 
+.form {
+  margin: 0 0 3em 0;
+}
+
+label {
+  visibility: hidden;
+}
 /* Select styling from Bootstrap */
 select,
 optgroup {
@@ -66,7 +73,7 @@ select {
 }
 
 .chart {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 .chart--genders {
   height: 68px;
