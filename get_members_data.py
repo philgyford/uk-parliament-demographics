@@ -13,7 +13,7 @@ FILEPATHS = {
     'commons':  '{}/commons.json'.format(JSON_DIR),
     'lords':    '{}/lords.json'.format(JSON_DIR),
     # Destination for the JSON file created for use by D3.js:
-    'ages':     '{}/ages.json'.format(JSON_DIR),
+    'chart':     '{}/chart.json'.format(JSON_DIR),
 }
 
 
@@ -137,7 +137,7 @@ def make_member_from_raw_data(data, house):
     return person
 
 
-def create_ages_file():
+def create_chart_file():
     """
     Open the JSON files of data about individual members created in fetch_data().
     And the manually-created file of data about the whole UK population.
@@ -149,7 +149,7 @@ def create_ages_file():
     JSON file, and save that.
     """
 
-    logger.info("Creating file of age bands at {}".format(FILEPATHS['ages']))
+    logger.info("Creating file of age bands at {}".format(FILEPATHS['chart']))
 
     bands_template = get_bands_template()
 
@@ -217,22 +217,25 @@ def create_ages_file():
     commons.insert(0, {
         'id': 'all',
         'name': 'All MPs',
-        'bands': all_members['commons'],
+        'ages': all_members['commons'],
     })
     lords.insert(0, {
         'id': 'all',
         'name': 'All members',
-        'bands': all_members['lords'],
+        'bages': all_members['lords'],
     })
 
     # Combine and save all of the above.
     ages_data = {
-        'uk': {'name': 'UK adult population', 'bands': uk_data['bands']},
+        'uk': {
+            'name': 'UK adult population',
+            'ages': uk_data['bands'],
+        },
         'commons': commons,
         'lords': lords,
     }
 
-    with open(FILEPATHS['ages'], 'w') as f:
+    with open(FILEPATHS['chart'], 'w') as f:
         json.dump(ages_data, f, indent=2, ensure_ascii=False)
 
 
@@ -366,4 +369,4 @@ if __name__ == "__main__":
 
     fetch_lords_data()
 
-    create_ages_file()
+    create_chart_file()

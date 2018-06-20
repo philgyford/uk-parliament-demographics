@@ -92,7 +92,7 @@
         if (key == 'uk') {
           ages[key] = {
             'name': data[key]['name'],
-            'bands': data[key]['bands']
+            'ages': data[key]['ages']
           };
 
         } else {
@@ -101,7 +101,7 @@
             // So it'll be like 'commons-4':
             ages[key + '-' + d['id']] = {
               'name': d['name'],
-              'bands': d['bands']
+              'ages': d['ages']
             };
           });
         };
@@ -135,15 +135,15 @@
     function renderAgesChart(left, right) {
       var data = [];
 
-      for (var band in ages[left]['bands']) {
-        // Assuming both left and right have the same bands.
+      for (var band in ages[left]['ages']) {
+        // Assuming both left and right have the same age bands.
         // So each element will be like:
         // {'band': '18-19', 'left': 4, 'right': 12}
 
         data.push({
           'band': band,
-          'left': ages[left]['bands'][band],
-          'right': ages[right]['bands'][band],
+          'left': ages[left]['ages'][band],
+          'right': ages[right]['ages'][band],
         })
       };
 
@@ -177,7 +177,7 @@
       d3.select('.title-left').text(leftTitle);
       d3.select('.title-right').text(rightTitle);
 
-      
+
       // So we know what's currently showing.
       current = {
         'left': left,
