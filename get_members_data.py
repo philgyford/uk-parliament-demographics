@@ -151,12 +151,12 @@ def create_chart_file():
 
     logger.info("Creating file of age bands at {}".format(FILEPATHS['chart']))
 
-    bands_template = get_bands_template()
+    agebands_template = get_agebands_template()
 
     # Where we'll store data about ages for members in all parties:
     all_members = {
-        'commons': bands_template.copy(),
-        'lords': bands_template.copy(),
+        'commons': agebands_template.copy(),
+        'lords': agebands_template.copy(),
     }
 
     # Where we'll store data about ages for members in individual parties:
@@ -169,7 +169,7 @@ def create_chart_file():
 
     today = datetime.date.today()
 
-    bands = get_bands()
+    agebands = get_agebands()
 
     for house in ['commons', 'lords',]:
         # Create the data about all members and each party.
@@ -193,17 +193,17 @@ def create_chart_file():
                 age = today.year - birthdate.year - \
                     ((today.month, today.day) < (birthdate.month, birthdate.day))
 
-                band = None
+                ageband = None
 
-                # Find which band, e.g. ages 20-29, that this age falls in.
-                for lower_upper in bands:
+                # Find which ageband, e.g. ages 20-29, that this age falls in.
+                for lower_upper in agebands:
                     if age >= lower_upper[0] and age <= lower_upper[1]:
-                        band = '{}-{}'.format(lower_upper[0], lower_upper[1])
+                        ageband = '{}-{}'.format(lower_upper[0], lower_upper[1])
                         break
 
-                if band is not None:
-                    parties[house][party_id]['bands'][band] += 1
-                    all_members[house][band] += 1
+                if ageband is not None:
+                    parties[house][party_id]['ages'][ageband] += 1
+                    all_members[house][ageband] += 1
 
     # Also get the UK population data.
     with open(FILEPATHS['uk'], 'r') as f:
@@ -229,7 +229,7 @@ def create_chart_file():
     chart_data = {
         'uk': {
             'name': 'UK adult population',
-            'ages': uk_data['bands'],
+            'ages': uk_data['ages'],
         },
         'commons': commons,
         'lords': lords,
@@ -249,7 +249,7 @@ def get_parties(house):
     {
         '4': {
             'name': Conservative',
-            'bands': {
+            'ages': {
                 '0-9': 0,
                 '10-19': 0,
                 ...
@@ -299,16 +299,16 @@ def get_parties(house):
             # '283': { 'name': 'Lord Speaker', },
         }
 
-    bands_template = get_bands_template()
+    agebands_template = get_agebands_template()
 
-    # Inflate the parties' bands dict swith empty bands:
+    # Inflate the parties' age bands dict swith empty age bands:
     for id, dct in parties.items():
-        parties[id]['bands'] = bands_template.copy()
+        parties[id]['ages'] = agebands_template.copy()
 
     return parties
 
 
-def get_bands_template():
+def get_agebands_template():
     """
     Returns an empty dict we'll make copies of and populate with data:
 
@@ -321,16 +321,16 @@ def get_bands_template():
     """
     template = {}
 
-    bands = get_bands()
+    agebands = get_agebands()
 
-    for band in bands:
+    for band in agebands:
         key = '{}-{}'.format(band[0], band[1])
         template[key] = 0
 
     return template
 
 
-def get_bands():
+def get_agebands():
     """
     Returns a list of lists.
     Each inner list has two ints, the lower and upper range of an age band.
@@ -352,21 +352,21 @@ def get_bands():
     # bands_lower = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
     bands_lower = [18, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110,]
 
-    bands = []
+    agebands = []
 
     for idx, lower in enumerate(bands_lower):
         if idx < len(bands_lower) - 1:
             upper = bands_lower[idx+1] - 1
 
-            bands.append([lower, upper])
+            agebands.append([lower, upper])
 
-    return bands
+    return agebands
 
 
 if __name__ == "__main__":
 
-    fetch_commons_data()
-
-    fetch_lords_data()
+    # fetch_commons_data()
+    #
+    # fetch_lords_data()
 
     create_chart_file()

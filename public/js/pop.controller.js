@@ -22,14 +22,14 @@
     var current = {};
 
     // Load the data and render the initial chart.
-    d3.json('data/ages.json').then(function(data) {
+    d3.json('data/chart.json').then(function(data) {
       processAgesData(data);
       renderAgesChart(start['left'], start['right']);
     });
 
 
     /**
-     * Put the data from ages.json into a format useful for the interface.
+     * Put the data from chart.json into a format useful for the interface.
      */
     function processAgesData(data) {
       // Will be all the optgroups and their options:
@@ -128,7 +128,7 @@
 
     /**
      * Create or update the chart.
-     * `left` and `right` are keys used in the object in ages.json.
+     * `left` and `right` are keys used in the object in chart.json.
      * e.g. 'commonsall' or 'uk'.
      * One will be displayed on each side of the chart.
      */
