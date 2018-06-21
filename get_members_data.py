@@ -62,6 +62,7 @@ def fetch_members_from_api(date, house):
     """
     This is pretty much replicating what mnis's getCommonsMembersOn() does,
     but for Lords, and only fetching bits of data that we need.
+    https://github.com/olihawkins/mnis
 
     date is the date on which we want to get the members for (probably today).
     house is either 'commons' or 'lords'
