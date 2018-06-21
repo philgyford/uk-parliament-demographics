@@ -393,8 +393,8 @@ def get_agebands():
 
 if __name__ == "__main__":
 
-    # fetch_commons_data()
-    #
-    # fetch_lords_data()
+    fetch_commons_data()
+
+    fetch_lords_data()
 
     create_chart_file()
