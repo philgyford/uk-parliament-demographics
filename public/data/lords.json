@@ -801,6 +801,14 @@
       "dateOfBirth": "1944-11-17"
     },
     {
+      "memberId": 4701,
+      "gender": "F",
+      "name": "Baroness Bryan of Partick",
+      "partyId": 15,
+      "partyName": "Labour",
+      "dateOfBirth": "1950-01-03"
+    },
+    {
       "memberId": 238,
       "gender": "M",
       "name": "Lord Burnett",
@@ -3492,8 +3500,8 @@
       "memberId": 68,
       "gender": "M",
       "name": "Lord Lilley",
-      "partyId": null,
-      "partyName": "",
+      "partyId": 4,
+      "partyName": "Conservative",
       "dateOfBirth": "1943-08-23"
     },
     {
@@ -3679,6 +3687,14 @@
       "partyId": 15,
       "partyName": "Labour",
       "dateOfBirth": "1960-06-30"
+    },
+    {
+      "memberId": 655,
+      "gender": "M",
+      "name": "Lord McCrea of Magherafelt and Cookstown",
+      "partyId": 7,
+      "partyName": "Democratic Unionist Party",
+      "dateOfBirth": "1948-08-06"
     },
     {
       "memberId": 3701,
@@ -3983,6 +3999,14 @@
       "partyId": 15,
       "partyName": "Labour",
       "dateOfBirth": "1966-12-30"
+    },
+    {
+      "memberId": 4699,
+      "gender": "F",
+      "name": "Baroness Meyer",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1953-01-26"
     },
     {
       "memberId": 1934,
@@ -4588,8 +4612,8 @@
       "memberId": 33,
       "gender": "M",
       "name": "Lord Pickles",
-      "partyId": null,
-      "partyName": "",
+      "partyId": 4,
+      "partyName": "Conservative",
       "dateOfBirth": "1952-04-20"
     },
     {
@@ -5127,6 +5151,14 @@
       "partyId": 4,
       "partyName": "Conservative",
       "dateOfBirth": "1955-09-11"
+    },
+    {
+      "memberId": 4700,
+      "gender": "F",
+      "name": "Baroness Sater",
+      "partyId": 4,
+      "partyName": "Conservative",
+      "dateOfBirth": "1963-06-21"
     },
     {
       "memberId": 2106,
