@@ -1,4 +1,7 @@
+# UK Parliament Demographics
 
+* Python code to fetch data about House of Commons MPs and House of Lords members.
+* D3.js code to create charts based on that data.
 
 Uses Python 3 to fetch data about MPs and Lords members from the [Members Names Information Services](http://data.parliament.uk/membersdataplatform/memberquery.aspx). That process is inspired by [mnis](https://github.com/olihawkins/mnis) (which only fetches data for the Commons).
 
