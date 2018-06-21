@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
-  line-height: 1.125rem;
+  line-height: 1.25rem;
 }
 .container {
   max-width: 700px;
@@ -10,12 +10,13 @@ body {
 }
 
 .form {
-  margin: 0 0 3em 0;
+  margin: 0 0 2em 0;
 }
 
-label {
-  visibility: hidden;
+.intro {
+  margin-bottom: 0;
 }
+
 /* Select styling from Bootstrap */
 select,
 optgroup {
@@ -52,7 +53,7 @@ select {
 }
 
 .lr-titles {
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0.5em 0;
   font-size: 0.875rem;
 }
 
@@ -96,7 +97,7 @@ select {
   position: absolute;
   background: #fff;
   border: 1px solid #ccc;
-  padding: 0.5em 10px;
+  padding: 0.3em 8px;
   font-size: 0.75rem;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
@@ -114,4 +115,14 @@ select {
 }
 .axis text {
   font-size: 0.75rem;
+}
+
+
+.u-sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
