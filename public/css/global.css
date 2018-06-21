@@ -5,10 +5,16 @@ body {
 }
 .container {
   max-width: 700px;
+  min-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.page-title {
+  font-size: 1.75rem;
+  line-height: 1em;
+  margin-top: 0.5em;
+}
 .form {
   margin: 0 0 2em 0;
 }
