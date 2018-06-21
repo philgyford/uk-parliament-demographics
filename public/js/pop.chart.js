@@ -15,17 +15,19 @@
     // This will be replaced by a method when a chart is created.
     var render;
 
+    // How many ticks do we suggest to d3 for the x-axes for different chart widths?
+    var xAxisTicksWide = 8;
+    var xAxisTicksNarrow = 4;
+
     // Internal things that can't be overridden:
     var xScale = d3.scaleLinear(),
         xScaleL = d3.scaleLinear(),
         xScaleR = d3.scaleLinear(),
         yScale = d3.scaleBand(),
         xAxisL = d3.axisBottom(xScaleL)
-                    .tickFormat(d3.format('.0%'))
-                    .ticks(8),
+                    .tickFormat(d3.format('.0%')),
         xAxisR = d3.axisBottom(xScaleR)
-                    .tickFormat(d3.format('.0%'))
-                    .ticks(8),
+                    .tickFormat(d3.format('.0%')),
         yAxisL = d3.axisRight(yScale)
                     .tickSize(0)
                     .tickPadding(margin.middle),
@@ -192,6 +194,15 @@
           xAxisL.scale( xScale.copy().range([xLeft0, 0]) );
 
           xAxisR.scale(xScale);
+
+          // Set the number of x-axis ticks depending on width available:
+          if (chartW > 500) {
+            xAxisL.ticks(xAxisTicksWide);
+            xAxisR.ticks(xAxisTicksWide);
+          } else {
+            xAxisL.ticks(xAxisTicksNarrow);
+            xAxisR.ticks(xAxisTicksNarrow);
+          };
 
           svg.select('.axis--x.axis--left')
               .attr('transform', translation(0, chartH))
